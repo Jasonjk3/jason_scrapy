@@ -1,0 +1,374 @@
+2021-04-08 12:17:54 [scrapy.utils.log] INFO: Scrapy 2.4.1 started (bot: spider_server)
+2021-04-08 12:17:54 [scrapy.utils.log] INFO: Versions: lxml 4.1.1.0, libxml2 2.9.7, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 20.3.0, Python 3.6.4 |Anaconda, Inc.| (default, Jan 16 2018, 10:22:32) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 17.5.0 (OpenSSL 1.0.2n  7 Dec 2017), cryptography 2.1.4, Platform Windows-10-10.0.17763-SP0
+2021-04-08 12:17:54 [scrapy.utils.log] DEBUG: Using reactor: twisted.internet.selectreactor.SelectReactor
+2021-04-08 12:17:54 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'spider_server',
+ 'COOKIES_DEBUG': True,
+ 'DOWNLOAD_DELAY': 4,
+ 'DUPEFILTER_CLASS': 'scrapy_redis.dupefilter.RFPDupeFilter',
+ 'LOG_FILE': '../logs/1.txt',
+ 'NEWSPIDER_MODULE': 'spider_server.spiders',
+ 'SCHEDULER': 'scrapy_redis.scheduler.Scheduler',
+ 'SPIDER_MODULES': ['spider_server.spiders']}
+2021-04-08 12:17:54 [scrapy.extensions.telnet] INFO: Telnet Password: 0a8652503bfef9df
+2021-04-08 12:17:54 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2021-04-08 12:17:55 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['spider_server.middlewares.RandomUserAgent',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'spider_server.middlewares.ScrapyspiderDownloaderMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2021-04-08 12:17:55 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2021-04-08 12:17:55 [pika.adapters.select_connection] DEBUG: Using SelectPoller
+2021-04-08 12:17:55 [pika.adapters.base_connection] DEBUG: Created default connection workflow <pika.adapters.utils.connection_workflow.AMQPConnectionWorkflow object at 0x00000251CEA97DA0>
+2021-04-08 12:17:55 [pika.adapters.utils.connection_workflow] DEBUG: Starting AMQP Connection workflow asynchronously.
+2021-04-08 12:17:55 [pika.adapters.select_connection] DEBUG: call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x00000251CEA97D30> with deadline=180546.046 and callback=functools.partial(<bound method AMQPConnectionWorkflow._start_new_cycle_async of <pika.adapters.utils.connection_workflow.AMQPConnectionWorkflow object at 0x00000251CEA97DA0>>, first=True); now=180546.046; delay=0
+2021-04-08 12:17:55 [pika.adapters.utils.connection_workflow] DEBUG: Beginning a new AMQP connection workflow cycle; attempts remaining after this: 0
+2021-04-08 12:17:55 [pika.adapters.select_connection] DEBUG: call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x00000251CEA97E48> with deadline=180546.046 and callback=<bound method AMQPConnectionWorkflow._try_next_config_async of <pika.adapters.utils.connection_workflow.AMQPConnectionWorkflow object at 0x00000251CEA97DA0>>; now=180546.046; delay=0
+2021-04-08 12:17:55 [pika.adapters.utils.connection_workflow] DEBUG: _try_next_config_async: '139.159.204.92':8071
+2021-04-08 12:17:55 [pika.adapters.select_connection] DEBUG: process_timeouts: invoking callback=<bound method _AddressResolver._dispatch_result of <pika.adapters.utils.selector_ioloop_adapter._AddressResolver object at 0x00000251CEA97EF0>>
+2021-04-08 12:17:55 [pika.adapters.select_connection] DEBUG: add_callback_threadsafe: added callback=<bound method _AddressResolver._dispatch_result of <pika.adapters.utils.selector_ioloop_adapter._AddressResolver object at 0x00000251CEA97EF0>>
+2021-04-08 12:17:55 [pika.adapters.utils.selector_ioloop_adapter] DEBUG: Invoking asynchronous getaddrinfo() completion callback; host='139.159.204.92'
+2021-04-08 12:17:55 [pika.adapters.utils.connection_workflow] DEBUG: getaddrinfo returned 1 records
+2021-04-08 12:17:55 [pika.adapters.utils.connection_workflow] DEBUG: Attempting to connect using address record (<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 6, '', ('139.159.204.92', 8071))
+2021-04-08 12:17:55 [pika.adapters.utils.connection_workflow] INFO: Pika version 1.2.0 connecting to ('139.159.204.92', 8071)
+2021-04-08 12:17:55 [pika.adapters.select_connection] DEBUG: add_callback_threadsafe: added callback=<bound method _AsyncSocketConnector._start_async of <pika.adapters.utils.io_services_utils._AsyncSocketConnector object at 0x00000251CEB270B8>>
+2021-04-08 12:17:55 [pika.adapters.select_connection] DEBUG: call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x00000251CEB27358> with deadline=180556.062 and callback=<bound method AMQPConnector._on_tcp_connection_timeout of <pika.adapters.utils.connection_workflow.AMQPConnector object at 0x00000251CEB27160>>; now=180546.062; delay=10.0
+2021-04-08 12:17:55 [pika.adapters.select_connection] DEBUG: call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x00000251CEB273C8> with deadline=180561.062 and callback=<bound method AMQPConnector._on_overall_timeout of <pika.adapters.utils.connection_workflow.AMQPConnector object at 0x00000251CEB27160>>; now=180546.062; delay=15.0
+2021-04-08 12:17:55 [pika.adapters.select_connection] DEBUG: process_timeouts: invoking callback=<bound method _AsyncSocketConnector._start_async of <pika.adapters.utils.io_services_utils._AsyncSocketConnector object at 0x00000251CEB270B8>>
+2021-04-08 12:17:55 [pika.adapters.utils.selector_ioloop_adapter] DEBUG: SelectorIOServicesAdapter.set_writer(1384, <bound method _AsyncSocketConnector._on_writable of <pika.adapters.utils.io_services_utils._AsyncSocketConnector object at 0x00000251CEB270B8>>)
+2021-04-08 12:17:55 [pika.adapters.utils.selector_ioloop_adapter] DEBUG: set_writer(1384, _) added handler Wr
+2021-04-08 12:17:55 [pika.adapters.utils.io_services_utils] DEBUG: Connection-establishment is in progress for <socket.socket fd=1384, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('0.0.0.0', 54166), raddr=('139.159.204.92', 8071)>.
+2021-04-08 12:17:55 [pika.adapters.utils.io_services_utils] INFO: Socket connected: <socket.socket fd=1384, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('192.168.1.219', 54166), raddr=('139.159.204.92', 8071)>
+2021-04-08 12:17:55 [pika.adapters.utils.io_services_utils] DEBUG: _AsyncSocketConnector._report_completion(None); <socket.socket fd=1384, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('192.168.1.219', 54166), raddr=('139.159.204.92', 8071)>
+2021-04-08 12:17:55 [pika.adapters.utils.selector_ioloop_adapter] DEBUG: SelectorIOServicesAdapter.remove_writer(1384)
+2021-04-08 12:17:55 [pika.adapters.utils.selector_ioloop_adapter] DEBUG: remove_writer(1384) removed handler
+2021-04-08 12:17:55 [pika.adapters.select_connection] DEBUG: remove_timeout: removing timeout <pika.adapters.select_connection._Timeout object at 0x00000251CEB27358> with deadline=180556.062 and callback=<bound method AMQPConnector._on_tcp_connection_timeout of <pika.adapters.utils.connection_workflow.AMQPConnector object at 0x00000251CEB27160>>
+2021-04-08 12:17:55 [pika.adapters.utils.connection_workflow] DEBUG: TCP connection to broker established: <socket.socket fd=1384, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('192.168.1.219', 54166), raddr=('139.159.204.92', 8071)>.
+2021-04-08 12:17:55 [pika.adapters.utils.io_services_utils] DEBUG: _AsyncStreamConnector.start(); <socket.socket fd=1384, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('192.168.1.219', 54166), raddr=('139.159.204.92', 8071)>
+2021-04-08 12:17:55 [pika.adapters.select_connection] DEBUG: add_callback_threadsafe: added callback=<bound method _AsyncStreamConnector._start_async of <pika.adapters.utils.io_services_utils._AsyncStreamConnector object at 0x00000251CEA97E10>>
+2021-04-08 12:17:55 [pika.adapters.select_connection] DEBUG: process_timeouts: invoking callback=<bound method _AsyncStreamConnector._start_async of <pika.adapters.utils.io_services_utils._AsyncStreamConnector object at 0x00000251CEA97E10>>
+2021-04-08 12:17:55 [pika.adapters.utils.io_services_utils] DEBUG: _AsyncStreamConnector._start_async(); <socket.socket fd=1384, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('192.168.1.219', 54166), raddr=('139.159.204.92', 8071)>
+2021-04-08 12:17:55 [pika.adapters.utils.io_services_utils] DEBUG: _AsyncStreamConnector._linkup()
+2021-04-08 12:17:55 [pika.connection] DEBUG: New Connection state: CLOSED (prev=CLOSED)
+2021-04-08 12:17:55 [pika.callback] DEBUG: Added: {'callback': <bound method Connection._on_connection_start of <SelectConnection CLOSED transport=None params=<ConnectionParameters host=139.159.204.92 port=8071 virtual_host=/ ssl=False>>>, 'one_shot': True, 'only': None, 'arguments': None, 'calls': 1}
+2021-04-08 12:17:55 [pika.callback] DEBUG: Added: {'callback': <bound method Connection._on_connection_close_from_broker of <SelectConnection CLOSED transport=None params=<ConnectionParameters host=139.159.204.92 port=8071 virtual_host=/ ssl=False>>>, 'one_shot': True, 'only': None, 'arguments': None, 'calls': 1}
+2021-04-08 12:17:55 [pika.callback] DEBUG: Added: {'callback': <bound method Connection._default_on_connection_error of <SelectConnection CLOSED transport=None params=<ConnectionParameters host=139.159.204.92 port=8071 virtual_host=/ ssl=False>>>, 'one_shot': False, 'only': None, 'arguments': None}
+2021-04-08 12:17:55 [pika.connection] DEBUG: New Connection state: INIT (prev=CLOSED)
+2021-04-08 12:17:55 [pika.connection] DEBUG: Using external connection workflow.
+2021-04-08 12:17:55 [pika.adapters.utils.io_services_utils] DEBUG: _AsyncTransportBase.__init__: <socket.socket fd=1384, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('192.168.1.219', 54166), raddr=('139.159.204.92', 8071)>
+2021-04-08 12:17:55 [pika.adapters.utils.selector_ioloop_adapter] DEBUG: SelectorIOServicesAdapter.set_reader(1384, <bound method _AsyncPlaintextTransport._on_socket_readable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x00000251CEB272B0>>)
+2021-04-08 12:17:55 [pika.adapters.utils.selector_ioloop_adapter] DEBUG: set_reader(1384, _) added handler Rd
+2021-04-08 12:17:55 [pika.adapters.utils.io_services_utils] DEBUG: _linkup(): created transport <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x00000251CEB272B0>
+2021-04-08 12:17:55 [pika.connection] DEBUG: New Connection state: PROTOCOL (prev=INIT)
+2021-04-08 12:17:55 [pika.adapters.utils.selector_ioloop_adapter] DEBUG: SelectorIOServicesAdapter.set_writer(1384, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x00000251CEB272B0>>)
+2021-04-08 12:17:55 [pika.adapters.utils.selector_ioloop_adapter] DEBUG: set_writer(1384, _) updated handler RdWr
+2021-04-08 12:17:55 [pika.adapters.utils.io_services_utils] DEBUG: Turned on writability watcher: <socket.socket fd=1384, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('192.168.1.219', 54166), raddr=('139.159.204.92', 8071)>
+2021-04-08 12:17:55 [pika.adapters.utils.io_services_utils] DEBUG: _linkup(): introduced transport to protocol <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x00000251CEB272B0>; _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x00000251CEB272B0> params=<ConnectionParameters host=139.159.204.92 port=8071 virtual_host=/ ssl=False>>
+2021-04-08 12:17:55 [pika.adapters.utils.io_services_utils] DEBUG: _AsyncStreamConnector._report_completion((<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x00000251CEB272B0>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x00000251CEB272B0> params=<ConnectionParameters host=139.159.204.92 port=8071 virtual_host=/ ssl=False>>)); <socket.socket fd=1384, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('192.168.1.219', 54166), raddr=('139.159.204.92', 8071)>
+2021-04-08 12:17:55 [pika.adapters.utils.connection_workflow] INFO: Streaming transport linked up: (<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x00000251CEB272B0>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x00000251CEB272B0> params=<ConnectionParameters host=139.159.204.92 port=8071 virtual_host=/ ssl=False>>).
+2021-04-08 12:17:55 [pika.callback] DEBUG: Removing callback #0: {'callback': <bound method Connection._default_on_connection_error of <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x00000251CEB272B0> params=<ConnectionParameters host=139.159.204.92 port=8071 virtual_host=/ ssl=False>>>, 'one_shot': False, 'only': None, 'arguments': None}
+2021-04-08 12:17:55 [pika.callback] DEBUG: Added: {'callback': <bound method AMQPConnector._on_amqp_handshake_done of <pika.adapters.utils.connection_workflow.AMQPConnector object at 0x00000251CEB27160>>, 'one_shot': False, 'only': None, 'arguments': None}
+2021-04-08 12:17:55 [pika.callback] DEBUG: Added: {'callback': <bound method AMQPConnector._on_amqp_handshake_done of <pika.adapters.utils.connection_workflow.AMQPConnector object at 0x00000251CEB27160>>, 'one_shot': False, 'only': None, 'arguments': None}
+2021-04-08 12:17:55 [pika.adapters.utils.io_services_utils] DEBUG: _AsyncStreamConnector._cleanup(False)
+2021-04-08 12:17:55 [pika.adapters.utils.selector_ioloop_adapter] DEBUG: SelectorIOServicesAdapter.remove_writer(1384)
+2021-04-08 12:17:55 [pika.adapters.utils.selector_ioloop_adapter] DEBUG: remove_writer(1384) updated handler Rd
+2021-04-08 12:17:55 [pika.adapters.utils.io_services_utils] DEBUG: Turned off writability watcher: <socket.socket fd=1384, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('192.168.1.219', 54166), raddr=('139.159.204.92', 8071)>
+2021-04-08 12:17:55 [pika.callback] DEBUG: Processing 0:Connection.Start
+2021-04-08 12:17:55 [pika.callback] DEBUG: Processing use of oneshot callback
+2021-04-08 12:17:55 [pika.callback] DEBUG: 0 registered uses left
+2021-04-08 12:17:55 [pika.callback] DEBUG: Removing callback #0: {'callback': <bound method Connection._on_connection_start of <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x00000251CEB272B0> params=<ConnectionParameters host=139.159.204.92 port=8071 virtual_host=/ ssl=False>>>, 'one_shot': True, 'only': None, 'arguments': None, 'calls': 0}
+2021-04-08 12:17:55 [pika.callback] DEBUG: Calling <bound method Connection._on_connection_start of <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x00000251CEB272B0> params=<ConnectionParameters host=139.159.204.92 port=8071 virtual_host=/ ssl=False>>> for "0:Connection.Start"
+2021-04-08 12:17:55 [pika.connection] DEBUG: New Connection state: START (prev=PROTOCOL)
+2021-04-08 12:17:55 [pika.callback] DEBUG: Added: {'callback': <bound method Connection._on_connection_tune of <SelectConnection START transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x00000251CEB272B0> params=<ConnectionParameters host=139.159.204.92 port=8071 virtual_host=/ ssl=False>>>, 'one_shot': True, 'only': None, 'arguments': None, 'calls': 1}
+2021-04-08 12:17:55 [pika.adapters.utils.selector_ioloop_adapter] DEBUG: SelectorIOServicesAdapter.set_writer(1384, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x00000251CEB272B0>>)
+2021-04-08 12:17:55 [pika.adapters.utils.selector_ioloop_adapter] DEBUG: set_writer(1384, _) updated handler RdWr
+2021-04-08 12:17:55 [pika.adapters.utils.io_services_utils] DEBUG: Turned on writability watcher: <socket.socket fd=1384, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('192.168.1.219', 54166), raddr=('139.159.204.92', 8071)>
+2021-04-08 12:17:55 [pika.adapters.utils.io_services_utils] DEBUG: Recv would block on <socket.socket fd=1384, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('192.168.1.219', 54166), raddr=('139.159.204.92', 8071)>
+2021-04-08 12:17:55 [pika.adapters.utils.selector_ioloop_adapter] DEBUG: SelectorIOServicesAdapter.remove_writer(1384)
+2021-04-08 12:17:55 [pika.adapters.utils.selector_ioloop_adapter] DEBUG: remove_writer(1384) updated handler Rd
+2021-04-08 12:17:55 [pika.adapters.utils.io_services_utils] DEBUG: Turned off writability watcher: <socket.socket fd=1384, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('192.168.1.219', 54166), raddr=('139.159.204.92', 8071)>
+2021-04-08 12:17:55 [pika.callback] DEBUG: Processing 0:Connection.Tune
+2021-04-08 12:17:55 [pika.callback] DEBUG: Processing use of oneshot callback
+2021-04-08 12:17:55 [pika.callback] DEBUG: 0 registered uses left
+2021-04-08 12:17:55 [pika.callback] DEBUG: Removing callback #0: {'callback': <bound method Connection._on_connection_tune of <SelectConnection START transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x00000251CEB272B0> params=<ConnectionParameters host=139.159.204.92 port=8071 virtual_host=/ ssl=False>>>, 'one_shot': True, 'only': None, 'arguments': None, 'calls': 0}
+2021-04-08 12:17:55 [pika.callback] DEBUG: Calling <bound method Connection._on_connection_tune of <SelectConnection START transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x00000251CEB272B0> params=<ConnectionParameters host=139.159.204.92 port=8071 virtual_host=/ ssl=False>>> for "0:Connection.Tune"
+2021-04-08 12:17:55 [pika.connection] DEBUG: New Connection state: TUNE (prev=START)
+2021-04-08 12:17:55 [pika.connection] DEBUG: Creating a HeartbeatChecker: 60
+2021-04-08 12:17:55 [pika.heartbeat] DEBUG: timeout: 60.000000 send_interval: 30.000000 check_interval: 65.000000
+2021-04-08 12:17:55 [pika.adapters.select_connection] DEBUG: call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x00000251CEB277B8> with deadline=180576.093 and callback=<bound method HeartbeatChecker._send_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x00000251CEB27630>>; now=180546.093; delay=30.0
+2021-04-08 12:17:55 [pika.adapters.select_connection] DEBUG: call_later: added timeout <pika.adapters.select_connection._Timeout object at 0x00000251CEB27668> with deadline=180611.093 and callback=<bound method HeartbeatChecker._check_heartbeat of <pika.heartbeat.HeartbeatChecker object at 0x00000251CEB27630>>; now=180546.093; delay=65
+2021-04-08 12:17:55 [pika.adapters.utils.selector_ioloop_adapter] DEBUG: SelectorIOServicesAdapter.set_writer(1384, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x00000251CEB272B0>>)
+2021-04-08 12:17:55 [pika.adapters.utils.selector_ioloop_adapter] DEBUG: set_writer(1384, _) updated handler RdWr
+2021-04-08 12:17:55 [pika.adapters.utils.io_services_utils] DEBUG: Turned on writability watcher: <socket.socket fd=1384, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('192.168.1.219', 54166), raddr=('139.159.204.92', 8071)>
+2021-04-08 12:17:55 [pika.callback] DEBUG: Added: {'callback': <bound method Connection._on_connection_open_ok of <SelectConnection TUNE transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x00000251CEB272B0> params=<ConnectionParameters host=139.159.204.92 port=8071 virtual_host=/ ssl=False>>>, 'one_shot': True, 'only': None, 'arguments': None, 'calls': 1}
+2021-04-08 12:17:55 [pika.adapters.utils.io_services_utils] DEBUG: Recv would block on <socket.socket fd=1384, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('192.168.1.219', 54166), raddr=('139.159.204.92', 8071)>
+2021-04-08 12:17:55 [pika.adapters.utils.selector_ioloop_adapter] DEBUG: SelectorIOServicesAdapter.remove_writer(1384)
+2021-04-08 12:17:55 [pika.adapters.utils.selector_ioloop_adapter] DEBUG: remove_writer(1384) updated handler Rd
+2021-04-08 12:17:55 [pika.adapters.utils.io_services_utils] DEBUG: Turned off writability watcher: <socket.socket fd=1384, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('192.168.1.219', 54166), raddr=('139.159.204.92', 8071)>
+2021-04-08 12:17:55 [pika.callback] DEBUG: Processing 0:Connection.OpenOk
+2021-04-08 12:17:55 [pika.callback] DEBUG: Processing use of oneshot callback
+2021-04-08 12:17:55 [pika.callback] DEBUG: 0 registered uses left
+2021-04-08 12:17:55 [pika.callback] DEBUG: Removing callback #0: {'callback': <bound method Connection._on_connection_open_ok of <SelectConnection TUNE transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x00000251CEB272B0> params=<ConnectionParameters host=139.159.204.92 port=8071 virtual_host=/ ssl=False>>>, 'one_shot': True, 'only': None, 'arguments': None, 'calls': 0}
+2021-04-08 12:17:55 [pika.callback] DEBUG: Calling <bound method Connection._on_connection_open_ok of <SelectConnection TUNE transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x00000251CEB272B0> params=<ConnectionParameters host=139.159.204.92 port=8071 virtual_host=/ ssl=False>>> for "0:Connection.OpenOk"
+2021-04-08 12:17:55 [pika.connection] DEBUG: New Connection state: OPEN (prev=TUNE)
+2021-04-08 12:17:55 [pika.callback] DEBUG: Processing 0:_on_connection_open_ok
+2021-04-08 12:17:55 [pika.callback] DEBUG: Calling <bound method AMQPConnector._on_amqp_handshake_done of <pika.adapters.utils.connection_workflow.AMQPConnector object at 0x00000251CEB27160>> for "0:_on_connection_open_ok"
+2021-04-08 12:17:55 [pika.adapters.utils.connection_workflow] DEBUG: AMQPConnector: AMQP handshake attempt completed; state=3; error=None; '139.159.204.92'/(<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 6, '', ('139.159.204.92', 8071))
+2021-04-08 12:17:55 [pika.adapters.utils.connection_workflow] DEBUG: AMQPConnector: AMQP connection established for '139.159.204.92'/(<AddressFamily.AF_INET: 2>, <SocketKind.SOCK_STREAM: 1>, 6, '', ('139.159.204.92', 8071)): <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x00000251CEB272B0> params=<ConnectionParameters host=139.159.204.92 port=8071 virtual_host=/ ssl=False>>
+2021-04-08 12:17:55 [pika.adapters.utils.connection_workflow] INFO: AMQPConnector - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x00000251CEB272B0> params=<ConnectionParameters host=139.159.204.92 port=8071 virtual_host=/ ssl=False>>
+2021-04-08 12:17:55 [pika.adapters.select_connection] DEBUG: remove_timeout: removing timeout <pika.adapters.select_connection._Timeout object at 0x00000251CEB273C8> with deadline=180561.062 and callback=<bound method AMQPConnector._on_overall_timeout of <pika.adapters.utils.connection_workflow.AMQPConnector object at 0x00000251CEB27160>>
+2021-04-08 12:17:55 [pika.adapters.utils.connection_workflow] DEBUG: Connection attempt completed with <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x00000251CEB272B0> params=<ConnectionParameters host=139.159.204.92 port=8071 virtual_host=/ ssl=False>>
+2021-04-08 12:17:55 [pika.adapters.utils.connection_workflow] INFO: AMQPConnectionWorkflow - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x00000251CEB272B0> params=<ConnectionParameters host=139.159.204.92 port=8071 virtual_host=/ ssl=False>>
+2021-04-08 12:17:55 [pika.adapters.utils.io_services_utils] DEBUG: Recv would block on <socket.socket fd=1384, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('192.168.1.219', 54166), raddr=('139.159.204.92', 8071)>
+2021-04-08 12:17:55 [pika.adapters.blocking_connection] INFO: Connection workflow succeeded: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x00000251CEB272B0> params=<ConnectionParameters host=139.159.204.92 port=8071 virtual_host=/ ssl=False>>
+2021-04-08 12:17:55 [pika.callback] DEBUG: Added: {'callback': <bound method _CallbackResult.set_value_once of <pika.adapters.blocking_connection._CallbackResult object at 0x00000251CEA17D08>>, 'one_shot': False, 'only': None, 'arguments': None}
+2021-04-08 12:17:55 [pika.connection] DEBUG: Creating channel 1
+2021-04-08 12:17:55 [pika.callback] DEBUG: Added: {'callback': <bound method Connection._on_channel_cleanup of <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x00000251CEB272B0> params=<ConnectionParameters host=139.159.204.92 port=8071 virtual_host=/ ssl=False>>>, 'one_shot': True, 'only': <Channel number=1 CLOSED conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x00000251CEB272B0> params=<ConnectionParameters host=139.159.204.92 port=8071 virtual_host=/ ssl=False>>>, 'arguments': None, 'calls': 1}
+2021-04-08 12:17:55 [pika.callback] DEBUG: Added: {'callback': <bound method Channel._on_getempty of <Channel number=1 OPENING conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x00000251CEB272B0> params=<ConnectionParameters host=139.159.204.92 port=8071 virtual_host=/ ssl=False>>>>, 'one_shot': False, 'only': None, 'arguments': None}
+2021-04-08 12:17:55 [pika.callback] DEBUG: Added: {'callback': <bound method Channel._on_cancel of <Channel number=1 OPENING conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x00000251CEB272B0> params=<ConnectionParameters host=139.159.204.92 port=8071 virtual_host=/ ssl=False>>>>, 'one_shot': False, 'only': None, 'arguments': None}
+2021-04-08 12:17:55 [pika.callback] DEBUG: Added: {'callback': <bound method Channel._on_flow of <Channel number=1 OPENING conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x00000251CEB272B0> params=<ConnectionParameters host=139.159.204.92 port=8071 virtual_host=/ ssl=False>>>>, 'one_shot': False, 'only': None, 'arguments': None}
+2021-04-08 12:17:55 [pika.callback] DEBUG: Added: {'callback': <bound method Channel._on_close_from_broker of <Channel number=1 OPENING conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x00000251CEB272B0> params=<ConnectionParameters host=139.159.204.92 port=8071 virtual_host=/ ssl=False>>>>, 'one_shot': True, 'only': None, 'arguments': None, 'calls': 1}
+2021-04-08 12:17:55 [pika.adapters.utils.selector_ioloop_adapter] DEBUG: SelectorIOServicesAdapter.set_writer(1384, <bound method _AsyncPlaintextTransport._on_socket_writable of <pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x00000251CEB272B0>>)
+2021-04-08 12:17:55 [pika.adapters.utils.selector_ioloop_adapter] DEBUG: set_writer(1384, _) updated handler RdWr
+2021-04-08 12:17:55 [pika.adapters.utils.io_services_utils] DEBUG: Turned on writability watcher: <socket.socket fd=1384, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('192.168.1.219', 54166), raddr=('139.159.204.92', 8071)>
+2021-04-08 12:17:55 [pika.channel] DEBUG: Entering blocking state on frame <Channel.Open(['out_of_band='])>; acceptable_replies=[<class 'pika.spec.Channel.OpenOk'>]
+2021-04-08 12:17:55 [pika.channel] DEBUG: Adding on_synchronous_complete callback
+2021-04-08 12:17:55 [pika.callback] DEBUG: Added: {'callback': <bound method Channel._on_synchronous_complete of <Channel number=1 OPENING conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x00000251CEB272B0> params=<ConnectionParameters host=139.159.204.92 port=8071 virtual_host=/ ssl=False>>>>, 'one_shot': True, 'only': None, 'arguments': None, 'calls': 1}
+2021-04-08 12:17:55 [pika.channel] DEBUG: Adding passed-in RPC response callback
+2021-04-08 12:17:55 [pika.callback] DEBUG: Added: {'callback': <bound method Channel._on_openok of <Channel number=1 OPENING conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x00000251CEB272B0> params=<ConnectionParameters host=139.159.204.92 port=8071 virtual_host=/ ssl=False>>>>, 'one_shot': True, 'only': None, 'arguments': None, 'calls': 1}
+2021-04-08 12:17:55 [pika.callback] DEBUG: Added: {'callback': <bound method BlockingChannel._on_consumer_cancelled_by_broker of <BlockingChannel impl=<Channel number=1 OPENING conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x00000251CEB272B0> params=<ConnectionParameters host=139.159.204.92 port=8071 virtual_host=/ ssl=False>>>>>, 'one_shot': False, 'only': None, 'arguments': None}
+2021-04-08 12:17:55 [pika.callback] DEBUG: Added: {'callback': <bound method _CallbackResult.signal_once of <pika.adapters.blocking_connection._CallbackResult object at 0x00000251CEB54048>>, 'one_shot': False, 'only': None, 'arguments': None}
+2021-04-08 12:17:55 [pika.callback] DEBUG: Added: {'callback': <bound method BlockingChannel._on_channel_closed of <BlockingChannel impl=<Channel number=1 OPENING conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x00000251CEB272B0> params=<ConnectionParameters host=139.159.204.92 port=8071 virtual_host=/ ssl=False>>>>>, 'one_shot': False, 'only': <Channel number=1 OPENING conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x00000251CEB272B0> params=<ConnectionParameters host=139.159.204.92 port=8071 virtual_host=/ ssl=False>>>, 'arguments': None}
+2021-04-08 12:17:55 [pika.callback] DEBUG: Added: {'callback': <bound method _CallbackResult.set_value_once of <pika.adapters.blocking_connection._CallbackResult object at 0x00000251CEB54108>>, 'one_shot': False, 'only': None, 'arguments': None}
+2021-04-08 12:17:55 [pika.adapters.blocking_connection] INFO: Created channel=1
+2021-04-08 12:17:55 [pika.adapters.utils.selector_ioloop_adapter] DEBUG: SelectorIOServicesAdapter.remove_writer(1384)
+2021-04-08 12:17:55 [pika.adapters.utils.selector_ioloop_adapter] DEBUG: remove_writer(1384) updated handler Rd
+2021-04-08 12:17:55 [pika.adapters.utils.io_services_utils] DEBUG: Turned off writability watcher: <socket.socket fd=1384, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('192.168.1.219', 54166), raddr=('139.159.204.92', 8071)>
+2021-04-08 12:17:55 [pika.callback] DEBUG: Processing 1:Channel.OpenOk
+2021-04-08 12:17:55 [pika.callback] DEBUG: Processing use of oneshot callback
+2021-04-08 12:17:55 [pika.callback] DEBUG: 0 registered uses left
+2021-04-08 12:17:55 [pika.callback] DEBUG: Removing callback #0: {'callback': <bound method Channel._on_synchronous_complete of <Channel number=1 OPENING conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x00000251CEB272B0> params=<ConnectionParameters host=139.159.204.92 port=8071 virtual_host=/ ssl=False>>>>, 'one_shot': True, 'only': None, 'arguments': None, 'calls': 0}
+2021-04-08 12:17:55 [pika.callback] DEBUG: Processing use of oneshot callback
+2021-04-08 12:17:55 [pika.callback] DEBUG: 0 registered uses left
+2021-04-08 12:17:55 [pika.callback] DEBUG: Removing callback #0: {'callback': <bound method Channel._on_openok of <Channel number=1 OPENING conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x00000251CEB272B0> params=<ConnectionParameters host=139.159.204.92 port=8071 virtual_host=/ ssl=False>>>>, 'one_shot': True, 'only': None, 'arguments': None, 'calls': 0}
+2021-04-08 12:17:55 [pika.callback] DEBUG: Calling <bound method Channel._on_synchronous_complete of <Channel number=1 OPENING conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x00000251CEB272B0> params=<ConnectionParameters host=139.159.204.92 port=8071 virtual_host=/ ssl=False>>>> for "1:Channel.OpenOk"
+2021-04-08 12:17:55 [pika.channel] DEBUG: 0 blocked frames
+2021-04-08 12:17:55 [pika.callback] DEBUG: Calling <bound method Channel._on_openok of <Channel number=1 OPENING conn=<SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x00000251CEB272B0> params=<ConnectionParameters host=139.159.204.92 port=8071 virtual_host=/ ssl=False>>>> for "1:Channel.OpenOk"
+2021-04-08 12:17:55 [pika.adapters.utils.io_services_utils] DEBUG: Recv would block on <socket.socket fd=1384, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('192.168.1.219', 54166), raddr=('139.159.204.92', 8071)>
+2021-04-08 12:17:55 [scrapy.middleware] INFO: Enabled item pipelines:
+['spider_server.pipelines.ScrapyspiderPipeline']
+2021-04-08 12:17:55 [scrapy.core.engine] INFO: Spider opened
+2021-04-08 12:17:55 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2021-04-08 12:17:55 [weiboSpider] INFO: Spider opened: weiboSpider
+2021-04-08 12:17:55 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2021-04-08 12:17:55 [weiboSpider] INFO: headers : {b'Referer': [b'https://weibo.cn/search/mblog?advanced=mblog&f=s'], b'Content-Type': [b'application/x-www-form-urlencoded'], b'Accept': [b'*/*'], b'Cookie': [b'SUB=_2A25NaUDMDeRhGeBK6FUT9yvPyDWIHXVukmCErDV6PUJbkdANLUTCkW1NR4YLvn0W154U5Zic_rKxYNal6AGebxgl; _T_WM=71788340538; MLOGIN=1; M_WEIBOCN_PARAMS=oid%3D4623269124639117%26luicode%3D10000011%26lfid%3D100103type%253D1%2526q%253D%25E7%2581%25AB%25E6%2598%259F; WEIBOCN_FROM=1110106030'], b'User-Agent': [b'Mozilla/5.0 (X11; CrOS i686 2268.111.0) AppleWebKit/536.11 (KHTML, like Gecko) Chrome/20.0.1132.57 Safari/536.11']}
+2021-04-08 12:17:55 [weiboSpider] INFO: headers : {b'Referer': [b'https://weibo.cn/search/mblog?advanced=mblog&f=s'], b'Content-Type': [b'application/x-www-form-urlencoded'], b'Accept': [b'*/*'], b'Cookie': [b'SUB=_2A25NaUDMDeRhGeBK6FUT9yvPyDWIHXVukmCErDV6PUJbkdANLUTCkW1NR4YLvn0W154U5Zic_rKxYNal6AGebxgl; _T_WM=71788340538; MLOGIN=1; M_WEIBOCN_PARAMS=oid%3D4623269124639117%26luicode%3D10000011%26lfid%3D100103type%253D1%2526q%253D%25E7%2581%25AB%25E6%2598%259F; WEIBOCN_FROM=1110106030'], b'User-Agent': [b'Mozilla/5.0 (Windows NT 6.2) AppleWebKit/536.3 (KHTML, like Gecko) Chrome/19.0.1061.0 Safari/536.3']}
+2021-04-08 12:17:55 [weiboSpider] INFO: headers : {b'Referer': [b'https://weibo.cn/search/mblog?advanced=mblog&f=s'], b'Content-Type': [b'application/x-www-form-urlencoded'], b'Accept': [b'*/*'], b'Cookie': [b'SUB=_2A25NaUDMDeRhGeBK6FUT9yvPyDWIHXVukmCErDV6PUJbkdANLUTCkW1NR4YLvn0W154U5Zic_rKxYNal6AGebxgl; _T_WM=71788340538; MLOGIN=1; M_WEIBOCN_PARAMS=oid%3D4623269124639117%26luicode%3D10000011%26lfid%3D100103type%253D1%2526q%253D%25E7%2581%25AB%25E6%2598%259F; WEIBOCN_FROM=1110106030'], b'User-Agent': [b'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/535.24 (KHTML, like Gecko) Chrome/19.0.1055.1 Safari/535.24']}
+2021-04-08 12:17:55 [weiboSpider] INFO: headers : {b'Referer': [b'https://weibo.cn/search/mblog?advanced=mblog&f=s'], b'Content-Type': [b'application/x-www-form-urlencoded'], b'Accept': [b'*/*'], b'Cookie': [b'SUB=_2A25NaUDMDeRhGeBK6FUT9yvPyDWIHXVukmCErDV6PUJbkdANLUTCkW1NR4YLvn0W154U5Zic_rKxYNal6AGebxgl; _T_WM=71788340538; MLOGIN=1; M_WEIBOCN_PARAMS=oid%3D4623269124639117%26luicode%3D10000011%26lfid%3D100103type%253D1%2526q%253D%25E7%2581%25AB%25E6%2598%259F; WEIBOCN_FROM=1110106030'], b'User-Agent': [b'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/535.24 (KHTML, like Gecko) Chrome/19.0.1055.1 Safari/535.24']}
+2021-04-08 12:17:55 [weiboSpider] INFO: headers : {b'Referer': [b'https://weibo.cn/search/mblog?advanced=mblog&f=s'], b'Content-Type': [b'application/x-www-form-urlencoded'], b'Accept': [b'*/*'], b'Cookie': [b'SUB=_2A25NaUDMDeRhGeBK6FUT9yvPyDWIHXVukmCErDV6PUJbkdANLUTCkW1NR4YLvn0W154U5Zic_rKxYNal6AGebxgl; _T_WM=71788340538; MLOGIN=1; M_WEIBOCN_PARAMS=oid%3D4623269124639117%26luicode%3D10000011%26lfid%3D100103type%253D1%2526q%253D%25E7%2581%25AB%25E6%2598%259F; WEIBOCN_FROM=1110106030'], b'User-Agent': [b'Mozilla/5.0 (Windows NT 6.2) AppleWebKit/536.3 (KHTML, like Gecko) Chrome/19.0.1061.1 Safari/536.3']}
+2021-04-08 12:17:55 [scrapy.downloadermiddlewares.cookies] DEBUG: Received cookies from: <302 https://weibo.cn/search/mblog?advancedfilter=1&keyword=%E5%8F%A4%E9%A3%8E&starttime=20210401&endtime=20210402&sort=time>
+Set-Cookie: _T_WM=34bc47679bcb605b1f12b65749bf03aa; expires=Sat, 08-May-2021 04:19:47 GMT; path=/; domain=.weibo.cn; httponly
+
+Set-Cookie: WEIBOCN_FROM=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/; domain=.weibo.cn
+
+2021-04-08 12:17:55 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (302) to <GET https://passport.weibo.cn/signin/login?entry=mweibo&r=https%3A%2F%2Fweibo.cn%2Fsearch%2Fmblog%3Fadvanced%3Dmblog%26f%3Ds&advancedfilter=1&keyword=%E5%8F%A4%E9%A3%8E&starttime=20210401&endtime=20210402&sort=time&_T_WM=34bc47679bcb605b1f12b65749bf03aa> from <GET https://weibo.cn/search/mblog?advancedfilter=1&keyword=%E5%8F%A4%E9%A3%8E&starttime=20210401&endtime=20210402&sort=time>
+2021-04-08 12:17:55 [weiboSpider] INFO: headers : {b'Referer': [b'https://weibo.cn/search/mblog?advanced=mblog&f=s'], b'Accept': [b'*/*'], b'User-Agent': [b'Mozilla/5.0 (X11; CrOS i686 2268.111.0) AppleWebKit/536.11 (KHTML, like Gecko) Chrome/20.0.1132.57 Safari/536.11'], b'Accept-Language': [b'en'], b'Accept-Encoding': [b'gzip, deflate']}
+2021-04-08 12:17:55 [scrapy.downloadermiddlewares.cookies] DEBUG: Sending cookies to: <GET https://passport.weibo.cn/signin/login?entry=mweibo&r=https%3A%2F%2Fweibo.cn%2Fsearch%2Fmblog%3Fadvanced%3Dmblog%26f%3Ds&advancedfilter=1&keyword=%E5%8F%A4%E9%A3%8E&starttime=20210401&endtime=20210402&sort=time&_T_WM=34bc47679bcb605b1f12b65749bf03aa>
+Cookie: _T_WM=34bc47679bcb605b1f12b65749bf03aa
+
+2021-04-08 12:18:00 [scrapy.downloadermiddlewares.cookies] DEBUG: Received cookies from: <302 https://weibo.cn/search/mblog?advancedfilter=1&keyword=%E5%8F%A4%E9%A3%8E&starttime=20210402&endtime=20210403&sort=time>
+Set-Cookie: _T_WM=3a2175422c851dd11280f7401725a8e3; expires=Sat, 08-May-2021 04:19:52 GMT; path=/; domain=.weibo.cn; httponly
+
+Set-Cookie: WEIBOCN_FROM=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/; domain=.weibo.cn
+
+2021-04-08 12:18:00 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (302) to <GET https://passport.weibo.cn/signin/login?entry=mweibo&r=https%3A%2F%2Fweibo.cn%2Fsearch%2Fmblog%3Fadvanced%3Dmblog%26f%3Ds&advancedfilter=1&keyword=%E5%8F%A4%E9%A3%8E&starttime=20210402&endtime=20210403&sort=time&_T_WM=3a2175422c851dd11280f7401725a8e3> from <GET https://weibo.cn/search/mblog?advancedfilter=1&keyword=%E5%8F%A4%E9%A3%8E&starttime=20210402&endtime=20210403&sort=time>
+2021-04-08 12:18:00 [weiboSpider] INFO: headers : {b'Referer': [b'https://weibo.cn/search/mblog?advanced=mblog&f=s'], b'Accept': [b'*/*'], b'User-Agent': [b'Mozilla/5.0 (Windows NT 6.2) AppleWebKit/536.3 (KHTML, like Gecko) Chrome/19.0.1061.0 Safari/536.3'], b'Accept-Language': [b'en'], b'Accept-Encoding': [b'gzip, deflate']}
+2021-04-08 12:18:00 [scrapy.downloadermiddlewares.cookies] DEBUG: Sending cookies to: <GET https://passport.weibo.cn/signin/login?entry=mweibo&r=https%3A%2F%2Fweibo.cn%2Fsearch%2Fmblog%3Fadvanced%3Dmblog%26f%3Ds&advancedfilter=1&keyword=%E5%8F%A4%E9%A3%8E&starttime=20210402&endtime=20210403&sort=time&_T_WM=3a2175422c851dd11280f7401725a8e3>
+Cookie: _T_WM=3a2175422c851dd11280f7401725a8e3
+
+2021-04-08 12:18:04 [scrapy.downloadermiddlewares.cookies] DEBUG: Received cookies from: <302 https://weibo.cn/search/mblog?advancedfilter=1&keyword=%E5%8F%A4%E9%A3%8E&starttime=20210403&endtime=20210404&sort=time>
+Set-Cookie: _T_WM=9d1069c7852833c5a072d63094342a91; expires=Sat, 08-May-2021 04:19:56 GMT; path=/; domain=.weibo.cn; httponly
+
+Set-Cookie: WEIBOCN_FROM=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/; domain=.weibo.cn
+
+2021-04-08 12:18:04 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (302) to <GET https://passport.weibo.cn/signin/login?entry=mweibo&r=https%3A%2F%2Fweibo.cn%2Fsearch%2Fmblog%3Fadvanced%3Dmblog%26f%3Ds&advancedfilter=1&keyword=%E5%8F%A4%E9%A3%8E&starttime=20210403&endtime=20210404&sort=time&_T_WM=9d1069c7852833c5a072d63094342a91> from <GET https://weibo.cn/search/mblog?advancedfilter=1&keyword=%E5%8F%A4%E9%A3%8E&starttime=20210403&endtime=20210404&sort=time>
+2021-04-08 12:18:04 [weiboSpider] INFO: headers : {b'Referer': [b'https://weibo.cn/search/mblog?advanced=mblog&f=s'], b'Accept': [b'*/*'], b'User-Agent': [b'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/535.24 (KHTML, like Gecko) Chrome/19.0.1055.1 Safari/535.24'], b'Accept-Language': [b'en'], b'Accept-Encoding': [b'gzip, deflate']}
+2021-04-08 12:18:04 [scrapy.downloadermiddlewares.cookies] DEBUG: Sending cookies to: <GET https://passport.weibo.cn/signin/login?entry=mweibo&r=https%3A%2F%2Fweibo.cn%2Fsearch%2Fmblog%3Fadvanced%3Dmblog%26f%3Ds&advancedfilter=1&keyword=%E5%8F%A4%E9%A3%8E&starttime=20210403&endtime=20210404&sort=time&_T_WM=9d1069c7852833c5a072d63094342a91>
+Cookie: _T_WM=9d1069c7852833c5a072d63094342a91
+
+2021-04-08 12:18:08 [scrapy.downloadermiddlewares.cookies] DEBUG: Received cookies from: <302 https://weibo.cn/search/mblog?advancedfilter=1&keyword=%E5%8F%A4%E9%A3%8E&starttime=20210404&endtime=20210405&sort=time>
+Set-Cookie: _T_WM=ab77e3b6b5a7583285c0193b3bca8f30; expires=Sat, 08-May-2021 04:20:00 GMT; path=/; domain=.weibo.cn; httponly
+
+Set-Cookie: WEIBOCN_FROM=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/; domain=.weibo.cn
+
+2021-04-08 12:18:08 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (302) to <GET https://passport.weibo.cn/signin/login?entry=mweibo&r=https%3A%2F%2Fweibo.cn%2Fsearch%2Fmblog%3Fadvanced%3Dmblog%26f%3Ds&advancedfilter=1&keyword=%E5%8F%A4%E9%A3%8E&starttime=20210404&endtime=20210405&sort=time&_T_WM=ab77e3b6b5a7583285c0193b3bca8f30> from <GET https://weibo.cn/search/mblog?advancedfilter=1&keyword=%E5%8F%A4%E9%A3%8E&starttime=20210404&endtime=20210405&sort=time>
+2021-04-08 12:18:08 [weiboSpider] INFO: headers : {b'Referer': [b'https://weibo.cn/search/mblog?advanced=mblog&f=s'], b'Accept': [b'*/*'], b'User-Agent': [b'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/535.24 (KHTML, like Gecko) Chrome/19.0.1055.1 Safari/535.24'], b'Accept-Language': [b'en'], b'Accept-Encoding': [b'gzip, deflate']}
+2021-04-08 12:18:08 [scrapy.downloadermiddlewares.cookies] DEBUG: Sending cookies to: <GET https://passport.weibo.cn/signin/login?entry=mweibo&r=https%3A%2F%2Fweibo.cn%2Fsearch%2Fmblog%3Fadvanced%3Dmblog%26f%3Ds&advancedfilter=1&keyword=%E5%8F%A4%E9%A3%8E&starttime=20210404&endtime=20210405&sort=time&_T_WM=ab77e3b6b5a7583285c0193b3bca8f30>
+Cookie: _T_WM=ab77e3b6b5a7583285c0193b3bca8f30
+
+2021-04-08 12:18:14 [scrapy.downloadermiddlewares.cookies] DEBUG: Received cookies from: <302 https://weibo.cn/search/mblog?advancedfilter=1&keyword=%E5%8F%A4%E9%A3%8E&starttime=20210405&endtime=20210406&sort=time>
+Set-Cookie: _T_WM=d686e9da97cd429fdf93a25ad803ea19; expires=Sat, 08-May-2021 04:20:06 GMT; path=/; domain=.weibo.cn; httponly
+
+Set-Cookie: WEIBOCN_FROM=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; path=/; domain=.weibo.cn
+
+2021-04-08 12:18:14 [scrapy.downloadermiddlewares.redirect] DEBUG: Redirecting (302) to <GET https://passport.weibo.cn/signin/login?entry=mweibo&r=https%3A%2F%2Fweibo.cn%2Fsearch%2Fmblog%3Fadvanced%3Dmblog%26f%3Ds&advancedfilter=1&keyword=%E5%8F%A4%E9%A3%8E&starttime=20210405&endtime=20210406&sort=time&_T_WM=d686e9da97cd429fdf93a25ad803ea19> from <GET https://weibo.cn/search/mblog?advancedfilter=1&keyword=%E5%8F%A4%E9%A3%8E&starttime=20210405&endtime=20210406&sort=time>
+2021-04-08 12:18:14 [weiboSpider] INFO: headers : {b'Referer': [b'https://weibo.cn/search/mblog?advanced=mblog&f=s'], b'Accept': [b'*/*'], b'User-Agent': [b'Mozilla/5.0 (Windows NT 6.2) AppleWebKit/536.3 (KHTML, like Gecko) Chrome/19.0.1061.1 Safari/536.3'], b'Accept-Language': [b'en'], b'Accept-Encoding': [b'gzip, deflate']}
+2021-04-08 12:18:14 [scrapy.downloadermiddlewares.cookies] DEBUG: Sending cookies to: <GET https://passport.weibo.cn/signin/login?entry=mweibo&r=https%3A%2F%2Fweibo.cn%2Fsearch%2Fmblog%3Fadvanced%3Dmblog%26f%3Ds&advancedfilter=1&keyword=%E5%8F%A4%E9%A3%8E&starttime=20210405&endtime=20210406&sort=time&_T_WM=d686e9da97cd429fdf93a25ad803ea19>
+Cookie: _T_WM=d686e9da97cd429fdf93a25ad803ea19
+
+2021-04-08 12:18:21 [scrapy.utils.log] INFO: Scrapy 2.4.1 started (bot: spider_server)
+2021-04-08 12:18:21 [scrapy.utils.log] INFO: Versions: lxml 4.1.1.0, libxml2 2.9.7, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 20.3.0, Python 3.6.4 |Anaconda, Inc.| (default, Jan 16 2018, 10:22:32) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 17.5.0 (OpenSSL 1.0.2n  7 Dec 2017), cryptography 2.1.4, Platform Windows-10-10.0.17763-SP0
+2021-04-08 12:18:21 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'spider_server',
+ 'COOKIES_DEBUG': True,
+ 'DOWNLOAD_DELAY': 4,
+ 'DUPEFILTER_CLASS': 'scrapy_redis.dupefilter.RFPDupeFilter',
+ 'LOG_FILE': '../logs/1.txt',
+ 'LOG_LEVEL': 'INFO',
+ 'NEWSPIDER_MODULE': 'spider_server.spiders',
+ 'SCHEDULER': 'scrapy_redis.scheduler.Scheduler',
+ 'SPIDER_MODULES': ['spider_server.spiders']}
+2021-04-08 12:18:21 [scrapy.extensions.telnet] INFO: Telnet Password: cdb600664d66d644
+2021-04-08 12:18:21 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2021-04-08 12:18:21 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['spider_server.middlewares.RandomUserAgent',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'spider_server.middlewares.ScrapyspiderDownloaderMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2021-04-08 12:18:21 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2021-04-08 12:18:21 [pika.adapters.utils.connection_workflow] INFO: Pika version 1.2.0 connecting to ('139.159.204.92', 8071)
+2021-04-08 12:18:21 [pika.adapters.utils.io_services_utils] INFO: Socket connected: <socket.socket fd=1284, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('192.168.1.219', 54205), raddr=('139.159.204.92', 8071)>
+2021-04-08 12:18:21 [pika.adapters.utils.connection_workflow] INFO: Streaming transport linked up: (<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000026728334438>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000026728334438> params=<ConnectionParameters host=139.159.204.92 port=8071 virtual_host=/ ssl=False>>).
+2021-04-08 12:18:21 [pika.adapters.utils.connection_workflow] INFO: AMQPConnector - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000026728334438> params=<ConnectionParameters host=139.159.204.92 port=8071 virtual_host=/ ssl=False>>
+2021-04-08 12:18:21 [pika.adapters.utils.connection_workflow] INFO: AMQPConnectionWorkflow - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000026728334438> params=<ConnectionParameters host=139.159.204.92 port=8071 virtual_host=/ ssl=False>>
+2021-04-08 12:18:21 [pika.adapters.blocking_connection] INFO: Connection workflow succeeded: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000026728334438> params=<ConnectionParameters host=139.159.204.92 port=8071 virtual_host=/ ssl=False>>
+2021-04-08 12:18:21 [pika.adapters.blocking_connection] INFO: Created channel=1
+2021-04-08 12:18:21 [scrapy.middleware] INFO: Enabled item pipelines:
+['spider_server.pipelines.ScrapyspiderPipeline']
+2021-04-08 12:18:21 [scrapy.core.engine] INFO: Spider opened
+2021-04-08 12:18:21 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2021-04-08 12:18:21 [weiboSpider] INFO: Spider opened: weiboSpider
+2021-04-08 12:18:21 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2021-04-08 12:18:21 [weiboSpider] INFO: headers : {b'Referer': [b'https://weibo.cn/search/mblog?advanced=mblog&f=s'], b'Content-Type': [b'application/x-www-form-urlencoded'], b'Accept': [b'*/*'], b'Cookie': [b'SUB=_2A25NaUDMDeRhGeBK6FUT9yvPyDWIHXVukmCErDV6PUJbkdANLUTCkW1NR4YLvn0W154U5Zic_rKxYNal6AGebxgl; _T_WM=71788340538; MLOGIN=1; M_WEIBOCN_PARAMS=oid%3D4623269124639117%26luicode%3D10000011%26lfid%3D100103type%253D1%2526q%253D%25E7%2581%25AB%25E6%2598%259F; WEIBOCN_FROM=1110106030'], b'User-Agent': [b'Mozilla/5.0 (Windows NT 6.2) AppleWebKit/536.3 (KHTML, like Gecko) Chrome/19.0.1062.0 Safari/536.3']}
+2021-04-08 12:18:21 [weiboSpider] INFO: headers : {b'Referer': [b'https://weibo.cn/search/mblog?advanced=mblog&f=s'], b'Content-Type': [b'application/x-www-form-urlencoded'], b'Accept': [b'*/*'], b'Cookie': [b'SUB=_2A25NaUDMDeRhGeBK6FUT9yvPyDWIHXVukmCErDV6PUJbkdANLUTCkW1NR4YLvn0W154U5Zic_rKxYNal6AGebxgl; _T_WM=71788340538; MLOGIN=1; M_WEIBOCN_PARAMS=oid%3D4623269124639117%26luicode%3D10000011%26lfid%3D100103type%253D1%2526q%253D%25E7%2581%25AB%25E6%2598%259F; WEIBOCN_FROM=1110106030'], b'User-Agent': [b'Mozilla/5.0 (Windows NT 6.2) AppleWebKit/536.6 (KHTML, like Gecko) Chrome/20.0.1090.0 Safari/536.6']}
+2021-04-08 12:18:21 [weiboSpider] INFO: headers : {b'Referer': [b'https://weibo.cn/search/mblog?advanced=mblog&f=s'], b'Content-Type': [b'application/x-www-form-urlencoded'], b'Accept': [b'*/*'], b'Cookie': [b'SUB=_2A25NaUDMDeRhGeBK6FUT9yvPyDWIHXVukmCErDV6PUJbkdANLUTCkW1NR4YLvn0W154U5Zic_rKxYNal6AGebxgl; _T_WM=71788340538; MLOGIN=1; M_WEIBOCN_PARAMS=oid%3D4623269124639117%26luicode%3D10000011%26lfid%3D100103type%253D1%2526q%253D%25E7%2581%25AB%25E6%2598%259F; WEIBOCN_FROM=1110106030'], b'User-Agent': [b'Mozilla/5.0 (Windows NT 6.2) AppleWebKit/536.3 (KHTML, like Gecko) Chrome/19.0.1061.1 Safari/536.3']}
+2021-04-08 12:18:21 [weiboSpider] INFO: headers : {b'Referer': [b'https://weibo.cn/search/mblog?advanced=mblog&f=s'], b'Content-Type': [b'application/x-www-form-urlencoded'], b'Accept': [b'*/*'], b'Cookie': [b'SUB=_2A25NaUDMDeRhGeBK6FUT9yvPyDWIHXVukmCErDV6PUJbkdANLUTCkW1NR4YLvn0W154U5Zic_rKxYNal6AGebxgl; _T_WM=71788340538; MLOGIN=1; M_WEIBOCN_PARAMS=oid%3D4623269124639117%26luicode%3D10000011%26lfid%3D100103type%253D1%2526q%253D%25E7%2581%25AB%25E6%2598%259F; WEIBOCN_FROM=1110106030'], b'User-Agent': [b'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/535.24 (KHTML, like Gecko) Chrome/19.0.1055.1 Safari/535.24']}
+2021-04-08 12:18:21 [weiboSpider] INFO: headers : {b'Referer': [b'https://weibo.cn/search/mblog?advanced=mblog&f=s'], b'Content-Type': [b'application/x-www-form-urlencoded'], b'Accept': [b'*/*'], b'Cookie': [b'SUB=_2A25NaUDMDeRhGeBK6FUT9yvPyDWIHXVukmCErDV6PUJbkdANLUTCkW1NR4YLvn0W154U5Zic_rKxYNal6AGebxgl; _T_WM=71788340538; MLOGIN=1; M_WEIBOCN_PARAMS=oid%3D4623269124639117%26luicode%3D10000011%26lfid%3D100103type%253D1%2526q%253D%25E7%2581%25AB%25E6%2598%259F; WEIBOCN_FROM=1110106030'], b'User-Agent': [b'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_0) AppleWebKit/536.3 (KHTML, like Gecko) Chrome/19.0.1063.0 Safari/536.3']}
+2021-04-08 12:18:21 [weiboSpider] INFO: headers : {b'Referer': [b'https://weibo.cn/search/mblog?advanced=mblog&f=s'], b'Accept': [b'*/*'], b'User-Agent': [b'Mozilla/5.0 (Windows NT 6.2) AppleWebKit/536.3 (KHTML, like Gecko) Chrome/19.0.1062.0 Safari/536.3'], b'Accept-Language': [b'en'], b'Accept-Encoding': [b'gzip, deflate']}
+2021-04-08 12:18:24 [weiboSpider] INFO: headers : {b'Referer': [b'https://weibo.cn/search/mblog?advanced=mblog&f=s'], b'Accept': [b'*/*'], b'User-Agent': [b'Mozilla/5.0 (Windows NT 6.2) AppleWebKit/536.6 (KHTML, like Gecko) Chrome/20.0.1090.0 Safari/536.6'], b'Accept-Language': [b'en'], b'Accept-Encoding': [b'gzip, deflate']}
+2021-04-08 12:18:30 [weiboSpider] INFO: headers : {b'Referer': [b'https://weibo.cn/search/mblog?advanced=mblog&f=s'], b'Accept': [b'*/*'], b'User-Agent': [b'Mozilla/5.0 (Windows NT 6.2) AppleWebKit/536.3 (KHTML, like Gecko) Chrome/19.0.1061.1 Safari/536.3'], b'Accept-Language': [b'en'], b'Accept-Encoding': [b'gzip, deflate']}
+2021-04-08 12:18:35 [weiboSpider] INFO: headers : {b'Referer': [b'https://weibo.cn/search/mblog?advanced=mblog&f=s'], b'Accept': [b'*/*'], b'User-Agent': [b'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/535.24 (KHTML, like Gecko) Chrome/19.0.1055.1 Safari/535.24'], b'Accept-Language': [b'en'], b'Accept-Encoding': [b'gzip, deflate']}
+2021-04-08 12:18:39 [scrapy.utils.log] INFO: Scrapy 2.4.1 started (bot: spider_server)
+2021-04-08 12:18:39 [scrapy.utils.log] INFO: Versions: lxml 4.1.1.0, libxml2 2.9.7, cssselect 1.1.0, parsel 1.6.0, w3lib 1.22.0, Twisted 20.3.0, Python 3.6.4 |Anaconda, Inc.| (default, Jan 16 2018, 10:22:32) [MSC v.1900 64 bit (AMD64)], pyOpenSSL 17.5.0 (OpenSSL 1.0.2n  7 Dec 2017), cryptography 2.1.4, Platform Windows-10-10.0.17763-SP0
+2021-04-08 12:18:39 [scrapy.crawler] INFO: Overridden settings:
+{'BOT_NAME': 'spider_server',
+ 'COOKIES_DEBUG': True,
+ 'DOWNLOAD_DELAY': 4,
+ 'DUPEFILTER_CLASS': 'scrapy_redis.dupefilter.RFPDupeFilter',
+ 'LOG_FILE': '../logs/1.txt',
+ 'LOG_LEVEL': 'INFO',
+ 'LOG_STDOUT': True,
+ 'NEWSPIDER_MODULE': 'spider_server.spiders',
+ 'SCHEDULER': 'scrapy_redis.scheduler.Scheduler',
+ 'SPIDER_MODULES': ['spider_server.spiders']}
+2021-04-08 12:18:39 [scrapy.extensions.telnet] INFO: Telnet Password: 95d995dd08c73cf6
+2021-04-08 12:18:39 [scrapy.middleware] INFO: Enabled extensions:
+['scrapy.extensions.corestats.CoreStats',
+ 'scrapy.extensions.telnet.TelnetConsole',
+ 'scrapy.extensions.logstats.LogStats']
+2021-04-08 12:18:39 [scrapy.middleware] INFO: Enabled downloader middlewares:
+['spider_server.middlewares.RandomUserAgent',
+ 'scrapy.downloadermiddlewares.httpauth.HttpAuthMiddleware',
+ 'scrapy.downloadermiddlewares.downloadtimeout.DownloadTimeoutMiddleware',
+ 'scrapy.downloadermiddlewares.defaultheaders.DefaultHeadersMiddleware',
+ 'scrapy.downloadermiddlewares.useragent.UserAgentMiddleware',
+ 'spider_server.middlewares.ScrapyspiderDownloaderMiddleware',
+ 'scrapy.downloadermiddlewares.retry.RetryMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.MetaRefreshMiddleware',
+ 'scrapy.downloadermiddlewares.httpcompression.HttpCompressionMiddleware',
+ 'scrapy.downloadermiddlewares.redirect.RedirectMiddleware',
+ 'scrapy.downloadermiddlewares.cookies.CookiesMiddleware',
+ 'scrapy.downloadermiddlewares.httpproxy.HttpProxyMiddleware',
+ 'scrapy.downloadermiddlewares.stats.DownloaderStats']
+2021-04-08 12:18:39 [scrapy.middleware] INFO: Enabled spider middlewares:
+['scrapy.spidermiddlewares.httperror.HttpErrorMiddleware',
+ 'scrapy.spidermiddlewares.offsite.OffsiteMiddleware',
+ 'scrapy.spidermiddlewares.referer.RefererMiddleware',
+ 'scrapy.spidermiddlewares.urllength.UrlLengthMiddleware',
+ 'scrapy.spidermiddlewares.depth.DepthMiddleware']
+2021-04-08 12:18:39 [pika.adapters.utils.connection_workflow] INFO: Pika version 1.2.0 connecting to ('139.159.204.92', 8071)
+2021-04-08 12:18:39 [pika.adapters.utils.io_services_utils] INFO: Socket connected: <socket.socket fd=1420, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=6, laddr=('192.168.1.219', 54238), raddr=('139.159.204.92', 8071)>
+2021-04-08 12:18:39 [pika.adapters.utils.connection_workflow] INFO: Streaming transport linked up: (<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000017386252470>, _StreamingProtocolShim: <SelectConnection PROTOCOL transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000017386252470> params=<ConnectionParameters host=139.159.204.92 port=8071 virtual_host=/ ssl=False>>).
+2021-04-08 12:18:39 [pika.adapters.utils.connection_workflow] INFO: AMQPConnector - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000017386252470> params=<ConnectionParameters host=139.159.204.92 port=8071 virtual_host=/ ssl=False>>
+2021-04-08 12:18:39 [pika.adapters.utils.connection_workflow] INFO: AMQPConnectionWorkflow - reporting success: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000017386252470> params=<ConnectionParameters host=139.159.204.92 port=8071 virtual_host=/ ssl=False>>
+2021-04-08 12:18:39 [pika.adapters.blocking_connection] INFO: Connection workflow succeeded: <SelectConnection OPEN transport=<pika.adapters.utils.io_services_utils._AsyncPlaintextTransport object at 0x0000017386252470> params=<ConnectionParameters host=139.159.204.92 port=8071 virtual_host=/ ssl=False>>
+2021-04-08 12:18:39 [pika.adapters.blocking_connection] INFO: Created channel=1
+2021-04-08 12:18:39 [scrapy.middleware] INFO: Enabled item pipelines:
+['spider_server.pipelines.ScrapyspiderPipeline']
+2021-04-08 12:18:39 [scrapy.core.engine] INFO: Spider opened
+2021-04-08 12:18:39 [scrapy.extensions.logstats] INFO: Crawled 0 pages (at 0 pages/min), scraped 0 items (at 0 items/min)
+2021-04-08 12:18:39 [weiboSpider] INFO: Spider opened: weiboSpider
+2021-04-08 12:18:39 [scrapy.extensions.telnet] INFO: Telnet console listening on 127.0.0.1:6023
+2021-04-08 12:18:39 [stdout] INFO: 古风
+2021-04-08 12:18:39 [weiboSpider] INFO: headers : {b'Referer': [b'https://weibo.cn/search/mblog?advanced=mblog&f=s'], b'Content-Type': [b'application/x-www-form-urlencoded'], b'Accept': [b'*/*'], b'Cookie': [b'SUB=_2A25NaUDMDeRhGeBK6FUT9yvPyDWIHXVukmCErDV6PUJbkdANLUTCkW1NR4YLvn0W154U5Zic_rKxYNal6AGebxgl; _T_WM=71788340538; MLOGIN=1; M_WEIBOCN_PARAMS=oid%3D4623269124639117%26luicode%3D10000011%26lfid%3D100103type%253D1%2526q%253D%25E7%2581%25AB%25E6%2598%259F; WEIBOCN_FROM=1110106030'], b'User-Agent': [b'Mozilla/5.0 (Windows NT 6.2) AppleWebKit/536.3 (KHTML, like Gecko) Chrome/19.0.1062.0 Safari/536.3']}
+2021-04-08 12:18:39 [weiboSpider] INFO: headers : {b'Referer': [b'https://weibo.cn/search/mblog?advanced=mblog&f=s'], b'Content-Type': [b'application/x-www-form-urlencoded'], b'Accept': [b'*/*'], b'Cookie': [b'SUB=_2A25NaUDMDeRhGeBK6FUT9yvPyDWIHXVukmCErDV6PUJbkdANLUTCkW1NR4YLvn0W154U5Zic_rKxYNal6AGebxgl; _T_WM=71788340538; MLOGIN=1; M_WEIBOCN_PARAMS=oid%3D4623269124639117%26luicode%3D10000011%26lfid%3D100103type%253D1%2526q%253D%25E7%2581%25AB%25E6%2598%259F; WEIBOCN_FROM=1110106030'], b'User-Agent': [b'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/535.24 (KHTML, like Gecko) Chrome/19.0.1055.1 Safari/535.24']}
+2021-04-08 12:18:39 [weiboSpider] INFO: headers : {b'Referer': [b'https://weibo.cn/search/mblog?advanced=mblog&f=s'], b'Content-Type': [b'application/x-www-form-urlencoded'], b'Accept': [b'*/*'], b'Cookie': [b'SUB=_2A25NaUDMDeRhGeBK6FUT9yvPyDWIHXVukmCErDV6PUJbkdANLUTCkW1NR4YLvn0W154U5Zic_rKxYNal6AGebxgl; _T_WM=71788340538; MLOGIN=1; M_WEIBOCN_PARAMS=oid%3D4623269124639117%26luicode%3D10000011%26lfid%3D100103type%253D1%2526q%253D%25E7%2581%25AB%25E6%2598%259F; WEIBOCN_FROM=1110106030'], b'User-Agent': [b'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.24 (KHTML, like Gecko) Chrome/19.0.1055.1 Safari/535.24']}
+2021-04-08 12:18:39 [weiboSpider] INFO: headers : {b'Referer': [b'https://weibo.cn/search/mblog?advanced=mblog&f=s'], b'Content-Type': [b'application/x-www-form-urlencoded'], b'Accept': [b'*/*'], b'Cookie': [b'SUB=_2A25NaUDMDeRhGeBK6FUT9yvPyDWIHXVukmCErDV6PUJbkdANLUTCkW1NR4YLvn0W154U5Zic_rKxYNal6AGebxgl; _T_WM=71788340538; MLOGIN=1; M_WEIBOCN_PARAMS=oid%3D4623269124639117%26luicode%3D10000011%26lfid%3D100103type%253D1%2526q%253D%25E7%2581%25AB%25E6%2598%259F; WEIBOCN_FROM=1110106030'], b'User-Agent': [b'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/536.3 (KHTML, like Gecko) Chrome/19.0.1062.0 Safari/536.3']}
+2021-04-08 12:18:39 [weiboSpider] INFO: headers : {b'Referer': [b'https://weibo.cn/search/mblog?advanced=mblog&f=s'], b'Content-Type': [b'application/x-www-form-urlencoded'], b'Accept': [b'*/*'], b'Cookie': [b'SUB=_2A25NaUDMDeRhGeBK6FUT9yvPyDWIHXVukmCErDV6PUJbkdANLUTCkW1NR4YLvn0W154U5Zic_rKxYNal6AGebxgl; _T_WM=71788340538; MLOGIN=1; M_WEIBOCN_PARAMS=oid%3D4623269124639117%26luicode%3D10000011%26lfid%3D100103type%253D1%2526q%253D%25E7%2581%25AB%25E6%2598%259F; WEIBOCN_FROM=1110106030'], b'User-Agent': [b'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/536.3 (KHTML, like Gecko) Chrome/19.0.1063.0 Safari/536.3']}
+2021-04-08 12:18:40 [weiboSpider] INFO: headers : {b'Referer': [b'https://weibo.cn/search/mblog?advanced=mblog&f=s'], b'Accept': [b'*/*'], b'User-Agent': [b'Mozilla/5.0 (Windows NT 6.2) AppleWebKit/536.3 (KHTML, like Gecko) Chrome/19.0.1062.0 Safari/536.3'], b'Accept-Language': [b'en'], b'Accept-Encoding': [b'gzip, deflate']}
+2021-04-08 12:18:45 [weiboSpider] INFO: headers : {b'Referer': [b'https://weibo.cn/search/mblog?advanced=mblog&f=s'], b'Accept': [b'*/*'], b'User-Agent': [b'Mozilla/5.0 (Windows NT 6.2; WOW64) AppleWebKit/535.24 (KHTML, like Gecko) Chrome/19.0.1055.1 Safari/535.24'], b'Accept-Language': [b'en'], b'Accept-Encoding': [b'gzip, deflate']}
+2021-04-08 12:18:51 [weiboSpider] INFO: headers : {b'Referer': [b'https://weibo.cn/search/mblog?advanced=mblog&f=s'], b'Accept': [b'*/*'], b'User-Agent': [b'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/535.24 (KHTML, like Gecko) Chrome/19.0.1055.1 Safari/535.24'], b'Accept-Language': [b'en'], b'Accept-Encoding': [b'gzip, deflate']}
+2021-04-08 12:18:56 [weiboSpider] INFO: headers : {b'Referer': [b'https://weibo.cn/search/mblog?advanced=mblog&f=s'], b'Accept': [b'*/*'], b'User-Agent': [b'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/536.3 (KHTML, like Gecko) Chrome/19.0.1062.0 Safari/536.3'], b'Accept-Language': [b'en'], b'Accept-Encoding': [b'gzip, deflate']}
+2021-04-08 12:19:00 [weiboSpider] INFO: headers : {b'Referer': [b'https://weibo.cn/search/mblog?advanced=mblog&f=s'], b'Accept': [b'*/*'], b'User-Agent': [b'Mozilla/5.0 (Windows NT 5.1) AppleWebKit/536.3 (KHTML, like Gecko) Chrome/19.0.1063.0 Safari/536.3'], b'Accept-Language': [b'en'], b'Accept-Encoding': [b'gzip, deflate']}
+2021-04-08 12:19:27 [scrapy.core.engine] INFO: Closing spider (finished)
+2021-04-08 12:19:27 [scrapy.statscollectors] INFO: Dumping Scrapy stats:
+{'downloader/request_bytes': 4907,
+ 'downloader/request_count': 10,
+ 'downloader/request_method_count/GET': 10,
+ 'downloader/response_bytes': 15260,
+ 'downloader/response_count': 10,
+ 'downloader/response_status_count/200': 5,
+ 'downloader/response_status_count/302': 5,
+ 'elapsed_time_seconds': 48.070179,
+ 'finish_reason': 'finished',
+ 'finish_time': datetime.datetime(2021, 4, 8, 4, 19, 27, 932749),
+ 'log_count/INFO': 29,
+ 'response_received_count': 5,
+ 'scheduler/dequeued/redis': 10,
+ 'scheduler/enqueued/redis': 10,
+ 'start_time': datetime.datetime(2021, 4, 8, 4, 18, 39, 862570)}
+2021-04-08 12:19:27 [scrapy.core.engine] INFO: Spider closed (finished)

@@ -1,0 +1,10 @@
+selenium
+pymysql
+redis
+pymongo
+scrapy
+scrapyd
+scrapyd-client
+scrapy-redis
+pika
+logparser

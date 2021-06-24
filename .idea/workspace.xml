@@ -1,0 +1,1187 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c92936d1-6d68-4e33-b742-a09cfcff5af9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/spider_server/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/spider_server/settings.py" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/scrapySpider$suning_detail.coverage" NAME="suning_detail Coverage Results" MODIFIED="1611542878842" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapySpider/spiders" />
+    <SUITE FILE_PATH="coverage/scrapySpider$douyinSpider.coverage" NAME="douyinSpider Coverage Results" MODIFIED="1610628119702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapySpider/spiders" />
+    <SUITE FILE_PATH="coverage/spider_server$main.coverage" NAME="main Coverage Results" MODIFIED="1617187420255" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider_server" />
+    <SUITE FILE_PATH="coverage/scrapySpider$util.coverage" NAME="util Coverage Results" MODIFIED="1611137043354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapySpider" />
+    <SUITE FILE_PATH="coverage/spider_server$slave_test.coverage" NAME="slave_test Coverage Results" MODIFIED="1618459904597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider_server/spiders" />
+    <SUITE FILE_PATH="coverage/spider_server$boss__1_.coverage" NAME="boss (1) Coverage Results" MODIFIED="1611642334683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider_server/spiders" />
+    <SUITE FILE_PATH="coverage/spider_server$city_code.coverage" NAME="city_code Coverage Results" MODIFIED="1618650849215" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider_server/libs" />
+    <SUITE FILE_PATH="coverage/scrapySpider$doutuSpider.coverage" NAME="doutuSpider Coverage Results" MODIFIED="1608200585059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapySpider/spiders" />
+    <SUITE FILE_PATH="coverage/scrapySpider$qdmm.coverage" NAME="qdmm Coverage Results" MODIFIED="1609400793702" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapySpider/spiders" />
+    <SUITE FILE_PATH="coverage/spider_server$weiboTopicSearchRedisV3.coverage" NAME="weiboTopicSearchRedisV3 Coverage Results" MODIFIED="1623050572075" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider_server/spiders/weibo" />
+    <SUITE FILE_PATH="coverage/spider_server$weiboSearch.coverage" NAME="weiboSearch Coverage Results" MODIFIED="1619409710833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider_server/spiders/weibo" />
+    <SUITE FILE_PATH="coverage/spider_server$weiboHotRank.coverage" NAME="weiboHotRank Coverage Results" MODIFIED="1619318685909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider_server/spiders" />
+    <SUITE FILE_PATH="coverage/scrapySpider$gushiSpider.coverage" NAME="gushiSpider Coverage Results" MODIFIED="1608022680066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapySpider/spiders" />
+    <SUITE FILE_PATH="coverage/spider_server$iqiyiDetail.coverage" NAME="iqiyiDetail Coverage Results" MODIFIED="1618571783913" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider_server/spiders/iqiyi" />
+    <SUITE FILE_PATH="coverage/scrapySpider$gushi.coverage" NAME="gushi Coverage Results" MODIFIED="1607754608486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapySpider/spiders" />
+    <SUITE FILE_PATH="coverage/spider_server$weiboTagTitle.coverage" NAME="weiboTagTitle Coverage Results" MODIFIED="1619602821418" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider_server/spiders/weibo" />
+    <SUITE FILE_PATH="coverage/spider_server$master_test.coverage" NAME="master_test Coverage Results" MODIFIED="1619231837806" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider_server/spiders" />
+    <SUITE FILE_PATH="coverage/spider_server$middlewares.coverage" NAME="middlewares Coverage Results" MODIFIED="1618287822425" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider_server" />
+    <SUITE FILE_PATH="coverage/scrapySpider$suning2.coverage" NAME="suning2 Coverage Results" MODIFIED="1611361628640" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapySpider/spiders" />
+    <SUITE FILE_PATH="coverage/spider_server$test2.coverage" NAME="test2 Coverage Results" MODIFIED="1617870589664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider_server/spiders" />
+    <SUITE FILE_PATH="coverage/spider_server$weiboTopicSearchRedis.coverage" NAME="weiboTopicSearchRedis Coverage Results" MODIFIED="1619668865743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider_server/spiders/weibo" />
+    <SUITE FILE_PATH="coverage/scrapySpider$hongxiuSpider.coverage" NAME="hongxiuSpider Coverage Results" MODIFIED="1609216678935" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapySpider/spiders" />
+    <SUITE FILE_PATH="coverage/scrapySpider$parse_tag.coverage" NAME="parse_tag Coverage Results" MODIFIED="1611198352485" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapySpider/func" />
+    <SUITE FILE_PATH="coverage/scrapySpider$taobao_login.coverage" NAME="taobao_login Coverage Results" MODIFIED="1611215917258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapySpider/func" />
+    <SUITE FILE_PATH="coverage/spider_server$weiboSearchRedis.coverage" NAME="weiboSearchRedis Coverage Results" MODIFIED="1619490558973" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider_server/spiders/weibo" />
+    <SUITE FILE_PATH="coverage/scrapySpider$test.coverage" NAME="test Coverage Results" MODIFIED="1611399245518" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapySpider/data" />
+    <SUITE FILE_PATH="coverage/spider_server$kafkaConsumer.coverage" NAME="kafkaConsumer Coverage Results" MODIFIED="1617783048708" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider_server/func" />
+    <SUITE FILE_PATH="coverage/scrapySpider$sanwen_poetrySpider.coverage" NAME="sanwen_poetrySpider Coverage Results" MODIFIED="1607930537167" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapySpider/spiders" />
+    <SUITE FILE_PATH="coverage/scrapySpider$taobao.coverage" NAME="taobao Coverage Results" MODIFIED="1611214829362" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapySpider/spiders" />
+    <SUITE FILE_PATH="coverage/spider_server$boss.coverage" NAME="boss Coverage Results" MODIFIED="1611641663227" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapySpider/spiders" />
+    <SUITE FILE_PATH="coverage/spider_server$rabbitMQProducer.coverage" NAME="rabbitMQProducer Coverage Results" MODIFIED="1617864479382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider_server/func" />
+    <SUITE FILE_PATH="coverage/spider_server$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1617870604936" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider_server/spiders" />
+    <SUITE FILE_PATH="coverage/scrapySpider$parse_data.coverage" NAME="parse_data Coverage Results" MODIFIED="1610620893266" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapySpider/func" />
+    <SUITE FILE_PATH="coverage/scrapySpider$suning3.coverage" NAME="suning3 Coverage Results" MODIFIED="1611373001249" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapySpider/spiders" />
+    <SUITE FILE_PATH="coverage/spider_server$weiboHotRank__1_.coverage" NAME="weiboHotRank (1) Coverage Results" MODIFIED="1619490560949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider_server/spiders/weibo" />
+    <SUITE FILE_PATH="coverage/scrapySpider$name.coverage" NAME="name Coverage Results" MODIFIED="1609384172764" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapySpider/spiders" />
+    <SUITE FILE_PATH="coverage/scrapySpider$jjwxSpider.coverage" NAME="jjwxSpider Coverage Results" MODIFIED="1609298426274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapySpider/spiders" />
+    <SUITE FILE_PATH="coverage/scrapySpider$mongoUtil.coverage" NAME="mongoUtil Coverage Results" MODIFIED="1608883837984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapySpider" />
+    <SUITE FILE_PATH="coverage/spider_server$redis.coverage" NAME="redis Coverage Results" MODIFIED="1616756728216" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider_server/func" />
+    <SUITE FILE_PATH="coverage/scrapySpider$qidianSpider.coverage" NAME="qidianSpider Coverage Results" MODIFIED="1609325523893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapySpider/spiders" />
+    <SUITE FILE_PATH="coverage/scrapySpider$pipelines.coverage" NAME="pipelines Coverage Results" MODIFIED="1607940108881" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapySpider" />
+    <SUITE FILE_PATH="coverage/spider_server$test.coverage" NAME="test Coverage Results" MODIFIED="1620292802342" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider_server" />
+    <SUITE FILE_PATH="coverage/scrapySpider$ppyueduSpider.coverage" NAME="ppyueduSpider Coverage Results" MODIFIED="1608022689068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapySpider/spiders" />
+    <SUITE FILE_PATH="coverage/spider_server$kafkaProducer.coverage" NAME="kafkaProducer Coverage Results" MODIFIED="1617783044606" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider_server/func" />
+    <SUITE FILE_PATH="coverage/spider_server$weibo.coverage" NAME="weibo Coverage Results" MODIFIED="1618026565258" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider_server/spiders" />
+    <SUITE FILE_PATH="coverage/spider_server$cloudMusic.coverage" NAME="cloudMusic Coverage Results" MODIFIED="1618641351516" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider_server/spiders/cloudMusic" />
+    <SUITE FILE_PATH="coverage/spider_server$doubanMusicSearch.coverage" NAME="doubanMusicSearch Coverage Results" MODIFIED="1618368935803" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider_server/spiders/douban" />
+    <SUITE FILE_PATH="coverage/spider_server$weiboTask1.coverage" NAME="weiboTask1 Coverage Results" MODIFIED="1619511800921" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider_server/spiders/weibo" />
+    <SUITE FILE_PATH="coverage/scrapySpider$chinanewsSpider.coverage" NAME="chinanewsSpider Coverage Results" MODIFIED="1608281082486" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapySpider/spiders" />
+    <SUITE FILE_PATH="coverage/spider_server$weibotest.coverage" NAME="weibotest Coverage Results" MODIFIED="1617850423540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider_server/spiders" />
+    <SUITE FILE_PATH="coverage/spider_server$weiboSpider.coverage" NAME="weiboSpider Coverage Results" MODIFIED="1617949623909" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider_server/spiders" />
+    <SUITE FILE_PATH="coverage/spider_server$cloudMusicPlaylist.coverage" NAME="cloudMusicPlaylist Coverage Results" MODIFIED="1618816875247" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider_server/spiders/cloudMusic" />
+    <SUITE FILE_PATH="coverage/spider_server$weiboUserDetailV3.coverage" NAME="weiboUserDetailV3 Coverage Results" MODIFIED="1622881605158" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider_server/spiders/weibo" />
+    <SUITE FILE_PATH="coverage/spider_server$bilibili_detail_video.coverage" NAME="bilibili_detail_video Coverage Results" MODIFIED="1618631903007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider_server/spiders/bilibili" />
+    <SUITE FILE_PATH="coverage/spider_server$weiboDetail.coverage" NAME="weiboDetail Coverage Results" MODIFIED="1619420161554" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider_server/spiders/weibo" />
+    <SUITE FILE_PATH="coverage/spider_server$weiboTopicRankV3.coverage" NAME="weiboTopicRankV3 Coverage Results" MODIFIED="1623206277635" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider_server/spiders/weibo" />
+    <SUITE FILE_PATH="coverage/spider_server$doubanMusicDetail.coverage" NAME="doubanMusicDetail Coverage Results" MODIFIED="1618397143177" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider_server/spiders/douban" />
+    <SUITE FILE_PATH="coverage/scrapySpider$boss.coverage" NAME="boss Coverage Results" MODIFIED="1610948347654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapySpider/spiders" />
+    <SUITE FILE_PATH="coverage/scrapySpider$douyin.coverage" NAME="douyin Coverage Results" MODIFIED="1611196417969" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapySpider/spiders" />
+    <SUITE FILE_PATH="coverage/spider_server$cloudMusicUserDetail.coverage" NAME="cloudMusicUserDetail Coverage Results" MODIFIED="1618653346019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider_server/spiders/cloudMusic" />
+    <SUITE FILE_PATH="coverage/spider_server$zhihuUserDetail.coverage" NAME="zhihuUserDetail Coverage Results" MODIFIED="1620376604655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider_server/spiders/zhihu" />
+    <SUITE FILE_PATH="coverage/spider_server$weiboCommetsV2.coverage" NAME="weiboCommetsV2 Coverage Results" MODIFIED="1623050574394" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider_server/spiders/weibo" />
+    <SUITE FILE_PATH="coverage/spider_server$ximalayaDetail.coverage" NAME="ximalayaDetail Coverage Results" MODIFIED="1618472059903" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider_server/spiders/ximalaya" />
+    <SUITE FILE_PATH="coverage/spider_server$bilibiliVideoCategory.coverage" NAME="bilibiliVideoCategory Coverage Results" MODIFIED="1618635032341" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider_server/spiders/bilibili" />
+    <SUITE FILE_PATH="coverage/spider_server$ximalayaCategory.coverage" NAME="ximalayaCategory Coverage Results" MODIFIED="1618472057536" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider_server/spiders/ximalaya" />
+    <SUITE FILE_PATH="coverage/spider_server$cloudMusicSongDetail.coverage" NAME="cloudMusicSongDetail Coverage Results" MODIFIED="1618829602647" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider_server/spiders/cloudMusic" />
+    <SUITE FILE_PATH="coverage/spider_server$iqiyiCategory.coverage" NAME="iqiyiCategory Coverage Results" MODIFIED="1618571777622" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider_server/spiders/iqiyi" />
+    <SUITE FILE_PATH="coverage/spider_server$weiboTopic.coverage" NAME="weiboTopic Coverage Results" MODIFIED="1619664801750" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider_server/spiders/weibo" />
+    <SUITE FILE_PATH="coverage/spider_server$weiboLogin.coverage" NAME="weiboLogin Coverage Results" MODIFIED="1617697992410" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider_server/seleniumSpider" />
+    <SUITE FILE_PATH="coverage/scrapySpider$douban.coverage" NAME="douban Coverage Results" MODIFIED="1609210306046" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapySpider/spiders" />
+    <SUITE FILE_PATH="coverage/scrapySpider$ankangwang.coverage" NAME="ankangwang Coverage Results" MODIFIED="1610968221092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapySpider/spiders" />
+    <SUITE FILE_PATH="coverage/spider_server$weiboDetailV2.coverage" NAME="weiboDetailV2 Coverage Results" MODIFIED="1619670951089" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider_server/spiders/weibo" />
+    <SUITE FILE_PATH="coverage/scrapySpider$sanwenSpider.coverage" NAME="sanwenSpider Coverage Results" MODIFIED="1607929253136" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapySpider/spiders" />
+    <SUITE FILE_PATH="coverage/scrapySpider$suning.coverage" NAME="suning Coverage Results" MODIFIED="1611368640380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapySpider/spiders" />
+    <SUITE FILE_PATH="coverage/spider_server$kafkaProducer__1_.coverage" NAME="kafkaProducer (1) Coverage Results" MODIFIED="1617769999382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider_server/func" />
+    <SUITE FILE_PATH="coverage/spider_server$weiboSearchRedisV2.coverage" NAME="weiboSearchRedisV2 Coverage Results" MODIFIED="1619604501298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider_server/spiders/weibo" />
+    <SUITE FILE_PATH="coverage/spider_server$tieba.coverage" NAME="tieba Coverage Results" MODIFIED="1617700183190" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider_server/spiders" />
+    <SUITE FILE_PATH="coverage/spider_server$settings.coverage" NAME="settings Coverage Results" MODIFIED="1620276143175" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider_server" />
+    <SUITE FILE_PATH="coverage/spider_server$util.coverage" NAME="util Coverage Results" MODIFIED="1618286458844" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider_server/libs" />
+    <SUITE FILE_PATH="coverage/scrapySpider$weiboSpider.coverage" NAME="weiboSpider Coverage Results" MODIFIED="1611137067561" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapySpider/spiders" />
+    <SUITE FILE_PATH="coverage/spider_server$myRedis.coverage" NAME="myRedis Coverage Results" MODIFIED="1616758816163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider_server/func" />
+    <SUITE FILE_PATH="coverage/spider_server$jingdong_1_.coverage" NAME="jingdong(1) Coverage Results" MODIFIED="1618646989326" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider_server/spiders" />
+    <SUITE FILE_PATH="coverage/spider_server$rabbitMQConsumer.coverage" NAME="rabbitMQConsumer Coverage Results" MODIFIED="1617849226724" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider_server/func" />
+    <SUITE FILE_PATH="coverage/scrapySpider$biqugeSpider.coverage" NAME="biqugeSpider Coverage Results" MODIFIED="1607580748331" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scrapySpider/spiders" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spider_server/spiders/weibo/weiboTopicSearchRedisV3.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spider_server/spiders/weibo/weiboCommetsV2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="180">
+              <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spider_server/spiders/weibo/weiboUserDetailV3.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="368">
+              <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spider_server/spiders/weibo/weiboDetailV1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="598">
+              <caret line="95" selection-start-line="95" selection-end-line="95" />
+              <folding>
+                <element signature="e#0#9#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spider_server/spiders/weibo/weiboSearchV1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1714">
+              <caret line="72" selection-start-line="72" selection-end-line="72" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spider_server/settings.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5190">
+              <caret line="173" column="12" selection-start-line="173" selection-start-column="12" selection-end-line="173" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spider_server/spiders/weibo/weiboTopicRankV3.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+              <folding>
+                <element signature="e#24#35#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spider_server/spiders/weibo/weiboSearchRedisV1.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-702">
+              <caret line="47" column="40" selection-start-line="47" selection-start-column="37" selection-end-line="47" selection-end-column="40" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>SuningSeleniumMiddleware</find>
+      <find>Chorme is Starting</find>
+      <find>全场景信号连接，4800万全场景相机</find>
+      <find>6488</find>
+      <find>无人机</find>
+      <find>显卡</find>
+      <find>2021-03-26</find>
+      <find>tweet_node</find>
+      <find>稻香</find>
+      <find>8125</find>
+      <find>MONGO_URL</find>
+      <find>MyRedisPipeline</find>
+      <find>314</find>
+      <find>热度</find>
+      <find>basic-txt</find>
+      <find>250793101</find>
+      <find>a</find>
+      <find>社会</find>
+      <find>TagTitle</find>
+      <find>近内卷这个</find>
+      <find>class=&quot;title&quot;</find>
+      <find>feed_list_repeat</find>
+      <find>make_requests_from_url</find>
+      <find>new</find>
+      <find>HP</find>
+      <find>cloud</find>
+      <find>tag_not_need</find>
+      <find>ner</find>
+      <find>ner_need</find>
+      <find>seg</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>}</replace>
+      <replace>}\n</replace>
+      <replace>self.sleep()</replace>
+      <replace>response</replace>
+      <replace>s</replace>
+      <replace>Topic</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/spider_server/spiders/jingdong.py" />
+        <option value="$PROJECT_DIR$/spider_server/spiders/jingdong(1).py" />
+        <option value="$PROJECT_DIR$/spider_server/libs/test" />
+        <option value="$PROJECT_DIR$/spider_server/libs/contry_code.json" />
+        <option value="$PROJECT_DIR$/spider_server/libs/city_code.py" />
+        <option value="$PROJECT_DIR$/spider_server/spiders/cloudMusic/cloudMusicPlaylist.py" />
+        <option value="$PROJECT_DIR$/spider_server/spiders/cloudMusic/cloudMusicSongDetail.py" />
+        <option value="$PROJECT_DIR$/spider_server/spiders/cloudMusic/cloudMusicSingerDetail.py" />
+        <option value="$PROJECT_DIR$/spider_server/spiders/cloudMusic/cloudMusicUserDetail.py" />
+        <option value="$PROJECT_DIR$/spider_server/libs/rabbitMQConsumer.py" />
+        <option value="$PROJECT_DIR$/spider_server/seleniumScripts/weiboLogin.py" />
+        <option value="$PROJECT_DIR$/spider_server/scripts/scrapyd/requirements.txt" />
+        <option value="$PROJECT_DIR$/spider_server/scripts/scrapyd/Dockerfile" />
+        <option value="$PROJECT_DIR$/spider_server/scripts/scrapyd/run.sh" />
+        <option value="$PROJECT_DIR$/spider_server/spiders/slave_test.py" />
+        <option value="$PROJECT_DIR$/spider_server/spiders/master_test.py" />
+        <option value="$PROJECT_DIR$/spider_server/spiders/weiboHotRank.py" />
+        <option value="$PROJECT_DIR$/spider_server/spiders/weibo/weiboDetail.py" />
+        <option value="$PROJECT_DIR$/spider_server/spiders/weibo/weiboSearch.py" />
+        <option value="$PROJECT_DIR$/spider_server/spiders/weibo/weiboHotRank.py" />
+        <option value="$PROJECT_DIR$/spider_server/data/cookies/weibo_cookies.txt" />
+        <option value="$PROJECT_DIR$/spider_server/libs/util.py" />
+        <option value="$PROJECT_DIR$/spider_server/spiders/weibo/weiboTask1.py" />
+        <option value="$PROJECT_DIR$/spider_server/spiders/weibo/weiboSearchRedis.py" />
+        <option value="$PROJECT_DIR$/spider_server/spiders/weibo/weiboTagTitle.py" />
+        <option value="$PROJECT_DIR$/spider_server/spiders/weibo/weiboSearchRedisV2.py" />
+        <option value="$PROJECT_DIR$/spider_server/spiders/weibo/weiboTopic.py" />
+        <option value="$PROJECT_DIR$/spider_server/seleniumScripts/weiboLogin2.py" />
+        <option value="$PROJECT_DIR$/spider_server/spiders/weibo/weiboTopicSearchRedis.py" />
+        <option value="$PROJECT_DIR$/spider_server/spiders/weibo/weiboTopicRank.py" />
+        <option value="$PROJECT_DIR$/spider_server/spiders/weibo/weiboHotRankV2.py" />
+        <option value="$PROJECT_DIR$/spider_server/spiders/weibo/weiboSearchV1.py" />
+        <option value="$PROJECT_DIR$/spider_server/spiders/weibo/weiboSearchRedisV1.py" />
+        <option value="$PROJECT_DIR$/spider_server/spiders/weibo/weiboDetailV2.py" />
+        <option value="$PROJECT_DIR$/spider_server/libs/extractor.py" />
+        <option value="$PROJECT_DIR$/spider_server/test.py" />
+        <option value="$PROJECT_DIR$/spider_server/data/cookies/zhihu_cookies.txt" />
+        <option value="$PROJECT_DIR$/spider_server/middlewares.py" />
+        <option value="$PROJECT_DIR$/spider_server/spiders/zhihu/zhihuUserDetail.py" />
+        <option value="$PROJECT_DIR$/spider_server/spiders/weibo/weiboDetailV1.py" />
+        <option value="$PROJECT_DIR$/spider_server/libs/kafkaConsumer.py" />
+        <option value="$PROJECT_DIR$/spider_server/libs/kafkaProducer.py" />
+        <option value="$PROJECT_DIR$/spider_server/pipelines.py" />
+        <option value="$PROJECT_DIR$/spider_server/items.py" />
+        <option value="$USER_HOME$/Documents/WeChat Files/wxid_5e45r231rhkt22/FileStorage/File/2021-05/新闻图谱-Jason.py" />
+        <option value="$PROJECT_DIR$/spider_server/spiders/weibo/weiboTopicRankV3.py" />
+        <option value="$PROJECT_DIR$/spider_server/spiders/weibo/weiboUserDetailV3.py" />
+        <option value="$PROJECT_DIR$/spider_server/spiders/weibo/weiboCommetsV2.py" />
+        <option value="$PROJECT_DIR$/spider_server/spiders/weibo/weiboTopicSearchRedisV3.py" />
+        <option value="$PROJECT_DIR$/spider_server/settings.py" />
+        <option value="$USER_HOME$/Documents/WeChat Files/wxid_5e45r231rhkt22/FileStorage/File/2021-05/新闻图谱-Jason(2).py" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1937" />
+    <option name="height" value="1057" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="spider_server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spider_server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spider_server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spider_server" type="462c0819:PsiDirectoryNode" />
+              <item name="spider_server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spider_server" type="b2602c69:ProjectViewProjectNode" />
+              <item name="spider_server" type="462c0819:PsiDirectoryNode" />
+              <item name="spider_server" type="462c0819:PsiDirectoryNode" />
+              <item name="spiders" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.mappings" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.highlight.symlinks" value="true" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
+    <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="PyConsoleOptionsProvider">
+    <option name="myPythonConsoleState">
+      <console-settings module-name="spider_server" is-module-sdk="true">
+        <option name="myUseModuleSdk" value="true" />
+        <option name="myModuleName" value="spider_server" />
+      </console-settings>
+    </option>
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\PycharmProjects\32Git\spider_server\spider_server\libs" />
+      <recent name="E:\PycharmProjects\32Git\spider_server\spider_server\spiders\zhihu" />
+      <recent name="E:\PycharmProjects\32Git\spider_server\spider_server\spiders\weibo" />
+      <recent name="E:\PycharmProjects\32Git\spider_server\spider_server\spiders\cloudMusic" />
+      <recent name="E:\PycharmProjects\32Git\spider_server\spider_server\spiders" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\PycharmProjects\32Git\spider_server\spider_server\spiders" />
+      <recent name="E:\PycharmProjects\32Git\spider_server\spider_server\spiders\weibo" />
+      <recent name="E:\PycharmProjects\32Git\spider_server\spider_server\data\src" />
+      <recent name="E:\PycharmProjects\32Git\spider_server\spider_server\libs" />
+      <recent name="E:\PycharmProjects\32Git\spider_server\spider_server\spiders\cloudMusic" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.weiboTopicRankV3">
+    <configuration name="weiboCommetsV2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="spider_server" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/spider_server/spiders/weibo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spider_server/spiders/weibo/weiboCommetsV2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="weiboTopicRankV3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="spider_server" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/spider_server/spiders/weibo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spider_server/spiders/weibo/weiboTopicRankV3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="weiboTopicSearchRedisV3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="spider_server" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/spider_server/spiders/weibo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spider_server/spiders/weibo/weiboTopicSearchRedisV3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="weiboUserDetailV3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="spider_server" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/spider_server/spiders/weibo" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spider_server/spiders/weibo/weiboUserDetailV3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="zhihuUserDetail" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="spider_server" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/spider_server/spiders/zhihu" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spider_server/spiders/zhihu/zhihuUserDetail.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.weiboTopicRankV3" />
+        <item itemvalue="Python.weiboCommetsV2" />
+        <item itemvalue="Python.weiboTopicSearchRedisV3" />
+        <item itemvalue="Python.weiboUserDetailV3" />
+        <item itemvalue="Python.zhihuUserDetail" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c92936d1-6d68-4e33-b742-a09cfcff5af9" name="Default Changelist" comment="" />
+      <created>1607487383647</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607487383647</updated>
+      <workItem from="1607487385517" duration="24726000" />
+      <workItem from="1607679460236" duration="611000" />
+      <workItem from="1607738850444" duration="92000" />
+      <workItem from="1607741541303" duration="13677000" />
+      <workItem from="1607918642145" duration="17554000" />
+      <workItem from="1607998754157" duration="3617000" />
+      <workItem from="1608003860412" duration="212000" />
+      <workItem from="1608004096329" duration="579000" />
+      <workItem from="1608005044232" duration="10128000" />
+      <workItem from="1608089528797" duration="10815000" />
+      <workItem from="1608196978356" duration="4641000" />
+      <workItem from="1608281070560" duration="15615000" />
+      <workItem from="1608882042686" duration="3343000" />
+      <workItem from="1609042200964" duration="92448000" />
+      <workItem from="1609389499176" duration="3741000" />
+      <workItem from="1609726605099" duration="1086000" />
+      <workItem from="1609820631376" duration="6000" />
+      <workItem from="1610616749520" duration="11158000" />
+      <workItem from="1610794678406" duration="372000" />
+      <workItem from="1611361450569" duration="1091000" />
+      <workItem from="1611363399887" duration="24444000" />
+      <workItem from="1611635764755" duration="4500000" />
+      <workItem from="1616646524480" duration="8296000" />
+      <workItem from="1616725719973" duration="8131000" />
+      <workItem from="1616750855616" duration="29606000" />
+      <workItem from="1617157221743" duration="5381000" />
+      <workItem from="1617176086785" duration="26793000" />
+      <workItem from="1617691277255" duration="17198000" />
+      <workItem from="1617766056876" duration="13679000" />
+      <workItem from="1617786308628" duration="29790000" />
+      <workItem from="1617938881324" duration="39568000" />
+      <workItem from="1618196434078" duration="2513000" />
+      <workItem from="1618200295074" duration="45125000" />
+      <workItem from="1618388774010" duration="5959000" />
+      <workItem from="1618398146754" duration="643000" />
+      <workItem from="1618453375007" duration="29261000" />
+      <workItem from="1618566243876" duration="23542000" />
+      <workItem from="1618656685786" duration="453000" />
+      <workItem from="1618800124096" duration="20149000" />
+      <workItem from="1618886238944" duration="6279000" />
+      <workItem from="1618971002226" duration="12991000" />
+      <workItem from="1619144075979" duration="9693000" />
+      <workItem from="1619172543489" duration="25030000" />
+      <workItem from="1619490546970" duration="14412000" />
+      <workItem from="1619591975726" duration="16323000" />
+      <workItem from="1619678005988" duration="14241000" />
+      <workItem from="1620267530390" duration="29165000" />
+      <workItem from="1620362996428" duration="25910000" />
+      <workItem from="1620874173500" duration="59651000" />
+      <workItem from="1622535259978" duration="35433000" />
+    </task>
+    <task id="LOCAL-00001" summary="新增苏宁爬虫">
+      <created>1611568544137</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1611568544137</updated>
+    </task>
+    <task id="LOCAL-00002" summary="new">
+      <created>1617966068112</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1617966068112</updated>
+    </task>
+    <task id="LOCAL-00003" summary="new">
+      <created>1618049370259</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1618049370259</updated>
+    </task>
+    <task id="LOCAL-00004" summary="new">
+      <created>1618049985736</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1618049985736</updated>
+    </task>
+    <task id="LOCAL-00005" summary="新增喜马拉雅爬虫">
+      <created>1618453877958</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1618453877958</updated>
+    </task>
+    <task id="LOCAL-00006" summary="新增爱奇艺爬虫">
+      <created>1618627533544</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1618627533544</updated>
+    </task>
+    <task id="LOCAL-00007" summary="新增爱奇艺爬虫">
+      <created>1618627584376</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1618627584376</updated>
+    </task>
+    <task id="LOCAL-00008" summary="新增weibo">
+      <created>1619601966175</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1619601966175</updated>
+    </task>
+    <task id="LOCAL-00009" summary="新增weibo">
+      <created>1620369967056</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1620369967056</updated>
+    </task>
+    <task id="LOCAL-00010" summary="完善细节">
+      <created>1621825648523</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1621825648523</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="864460000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="7" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.73802394" visible="true" weight="0.19616205" />
+      <window_info id="Structure" order="1" sideWeight="0.26197603" side_tool="true" visible="true" weight="0.19616205" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49946696" weight="0.3286334" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.69722813" visible="true" weight="0.27548808" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4989339" weight="0.45336226" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4978678" weight="0.3167028" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49946696" weight="0.329718" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.30277187" side_tool="true" visible="true" weight="0.27548808" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4968017" weight="0.4067245" />
+      <window_info anchor="bottom" id="Python Console" order="12" sideWeight="0.4989339" weight="0.32936078" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Remote Host" order="3" weight="0.32995737" />
+      <window_info anchor="right" id="SciView" order="4" weight="0.32942432" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Json Parser" order="6" weight="0.32995737" />
+    </layout>
+    <layout-to-restore>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.31236672" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49946696" weight="0.3286334" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.54211086" visible="true" weight="0.46312365" />
+      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4989339" weight="0.45345017" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4989339" weight="0.3167028" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49946696" weight="0.329718" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.45788914" side_tool="true" weight="0.5" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.4978678" weight="0.40744796" />
+      <window_info anchor="bottom" id="Python Console" order="12" weight="0.329718" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Remote Host" order="3" weight="0.32995737" />
+      <window_info anchor="right" id="SciView" order="4" weight="0.32942432" />
+      <window_info anchor="right" id="Database" order="5" />
+      <window_info anchor="right" id="Json Parser" order="6" weight="0.32995737" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="新增苏宁爬虫" />
+    <MESSAGE value="new" />
+    <MESSAGE value="新增喜马拉雅爬虫" />
+    <MESSAGE value="新增爱奇艺爬虫" />
+    <MESSAGE value="新增weibo" />
+    <MESSAGE value="完善细节" />
+    <option name="LAST_COMMIT_MESSAGE" value="完善细节" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spider_server/spiders/biqugeSpider.py</url>
+          <line>65</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spider_server/spiders/ppyueduSpider.py</url>
+          <line>50</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spider_server/spiders/jjwxSpider.py</url>
+          <line>45</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spider_server/spiders/jjwxSpider.py</url>
+          <line>31</line>
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spider_server/spiders/qidianSpider.py</url>
+          <line>139</line>
+          <option name="timeStamp" value="52" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spider_server/middlewares.py</url>
+          <line>161</line>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spider_server/spiders/ximalaya/ximalayaDetail.py</url>
+          <line>88</line>
+          <option name="timeStamp" value="81" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spider_server/spiders/ximalaya/ximalayaDetail.py</url>
+          <line>40</line>
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spider_server/spiders/weibo/weiboHotRankV2.py</url>
+          <line>96</line>
+          <option name="timeStamp" value="85" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spider_server/spiders/weibo/weiboUserDetailV3.py</url>
+          <line>65</line>
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/spider_server/pipelines.py</url>
+          <line>59</line>
+          <option name="timeStamp" value="102" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/spider_server/scripts/selenium/install.sh">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider_server/scripts/init.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-line="12" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider_server/scripts/scrapyd/Dockerfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider_server/scripts/scrapyd/run.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider_server/spiders/douban/doubanMusicSearch.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="720">
+          <caret line="42" column="61" lean-forward="true" selection-start-line="42" selection-end-line="43" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider_server/spiders/douban/doubanMusicDetail.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1699">
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider_server/data/cookies/weibo_account.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider_server/a.png" />
+    <entry file="file://$PROJECT_DIR$/spider_server/seleniumScripts/weiboLogin2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="8" selection-start-line="8" selection-end-line="16" />
+          <folding>
+            <element signature="e#156#171#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider_server/seleniumScripts/weiboLogin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="13" column="23" selection-start-line="13" selection-start-column="23" selection-end-line="13" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider_server/libs/toolkit.py" />
+    <entry file="file://$PROJECT_DIR$/spider_server/requirements.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" column="7" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/scrapy_redis/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="480">
+          <caret line="50" column="48" selection-start-line="50" selection-start-column="26" selection-end-line="50" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider_server/libs/extractor.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="11" column="41" lean-forward="true" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+          <folding>
+            <element signature="e#130#139#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/twisted/internet/defer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="172">
+          <caret line="1415" selection-start-line="1415" selection-end-line="1415" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/scrapy/core/downloader/middleware.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/scrapy/spiders/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1456">
+          <caret line="16" column="6" selection-start-line="16" selection-start-column="6" selection-end-line="16" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/scrapy_redis/spiders.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="148" column="32" lean-forward="true" selection-start-line="148" selection-start-column="32" selection-end-line="148" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider_server/data/cookies/zhihu_cookies.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1474" selection-start-column="1474" selection-end-column="1474" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider_server/spiders/zhihu/zhihuUserDetail.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="30" column="60" lean-forward="true" selection-start-line="30" selection-start-column="60" selection-end-line="30" selection-end-column="60" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/scrapy/item.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1988">
+          <caret line="41" column="11" selection-start-line="41" selection-start-column="6" selection-end-line="41" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider_server/libs/util.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1380">
+          <caret line="67" lean-forward="true" selection-start-line="67" selection-end-line="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/scrapy/commands/crawl.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="57" selection-start-line="57" selection-end-line="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/scrapy/crawler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="308" selection-start-line="308" selection-end-line="308" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/twisted/internet/base.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="1291" selection-start-line="1291" selection-end-line="1291" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider_server/spiders/weibo/weiboHotRankV2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <element signature="e#24#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/scrapy_redis/scheduler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="163" selection-start-line="163" selection-end-line="163" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/scrapy_redis/queue.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="116" selection-start-line="116" selection-end-line="116" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider_server/middlewares.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="344">
+          <caret line="207" column="36" selection-start-line="207" selection-start-column="36" selection-end-line="207" selection-end-column="36" />
+          <folding>
+            <element signature="e#144#155#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider_server/spiders/slave_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="33" column="82" lean-forward="true" selection-start-line="20" selection-start-column="4" selection-end-line="33" selection-end-column="82" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider_server/libs/rabbitMQConsumer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-570">
+          <caret line="14" column="43" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="43" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider_server/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="7" column="12" selection-start-line="7" selection-start-column="12" selection-end-line="7" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider_server/libs/myRedis.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+          <folding>
+            <element signature="e#142#153#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider_server/libs/kafkaConsumer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="10" column="24" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="24" />
+          <folding>
+            <element signature="e#133#144#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider_server/items.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1170">
+          <caret line="39" column="6" selection-start-line="39" selection-start-column="4" selection-end-line="39" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider_server/libs/kafkaProducer.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="750">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="e#133#147#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/scipy/stats/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider_server/pipelines.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="23" column="21" selection-start-line="23" selection-end-line="24" />
+          <folding>
+            <element signature="e#240#251#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/WeChat Files/wxid_5e45r231rhkt22/FileStorage/File/2021-05/新闻图谱-Jason.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5490">
+          <caret line="229" column="7" lean-forward="true" selection-start-line="229" selection-start-column="7" selection-end-line="229" selection-end-column="7" />
+          <folding>
+            <element signature="e#0#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/scipy/stats/stats.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-938">
+          <caret line="2188" column="4" selection-start-line="2188" selection-start-column="4" selection-end-line="2188" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Anaconda3/Lib/site-packages/jpype/_jclass.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="132" column="8" selection-start-line="132" selection-start-column="8" selection-end-line="132" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider_server/spiders/weibo/weiboUserDetailV3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="29" column="28" selection-start-line="29" selection-start-column="28" selection-end-line="29" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider_server/spiders/weibo/weiboCommetsV2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="21" column="23" selection-start-line="21" selection-start-column="23" selection-end-line="21" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider_server/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider_server/spiders/weibo/weiboTopicSearchRedisV3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="23" column="5" selection-start-line="23" selection-start-column="5" selection-end-line="23" selection-end-column="5" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider_server/spiders/weibo/weiboSearchV1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1714">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider_server/spiders/weibo/weiboDetailV1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="598">
+          <caret line="95" selection-start-line="95" selection-end-line="95" />
+          <folding>
+            <element signature="e#0#9#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider_server/spiders/weibo/weiboTopicRankV3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="20" column="5" selection-start-line="20" selection-start-column="5" selection-end-line="20" selection-end-column="5" />
+          <folding>
+            <element signature="e#24#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider_server/spiders/weibo/weiboSearchRedisV1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-702">
+          <caret line="47" column="40" selection-start-line="47" selection-start-column="37" selection-end-line="47" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Documents/WeChat Files/wxid_5e45r231rhkt22/FileStorage/File/2021-05/新闻图谱-Jason(2).py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="288" column="27" selection-start-line="288" selection-start-column="27" selection-end-line="288" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spider_server/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5190">
+          <caret line="173" column="12" selection-start-line="173" selection-start-column="12" selection-end-line="173" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

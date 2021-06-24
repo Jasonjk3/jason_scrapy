@@ -1,0 +1,8 @@
+scrapy
+scrapyd
+scrapy-redis
+redis
+pika
+selenium
+pymysql
+pymongo
